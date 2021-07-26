@@ -42,7 +42,7 @@
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>nie można atakować siebie</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
-  <CannotAttackSameFactionMember>TODO</CannotAttackSameFactionMember>
+  <CannotAttackSameFactionMember>nie można zaatakować sojusznika</CannotAttackSameFactionMember>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Człowiek {1_labelShort}</OrderManThing>
@@ -139,7 +139,7 @@
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>Ulepsz {0} do poziomu {1}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
-  <SurgeryViolationFellowFactionMember>TODO</SurgeryViolationFellowFactionMember>
+  <SurgeryViolationFellowFactionMember>nieautoryzowana operacja na sojuszniku</SurgeryViolationFellowFactionMember>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Zjedz: {1_labelShort}</ConsumeThing>
@@ -179,7 +179,7 @@
   <!-- EN: Temporary faction members not allowed. -->
   <CryptosleepCasketGuestsNotAllowed>Nie dozwolone dla tymczasowych członków frakcji.</CryptosleepCasketGuestsNotAllowed>
   <!-- EN: Hosted prisoners not allowed. -->
-  <CryptosleepCasketGuestPrisonersNotAllowed>TODO</CryptosleepCasketGuestPrisonersNotAllowed>
+  <CryptosleepCasketGuestPrisonersNotAllowed>Odwiedzający więźniowie niedopuszczeni</CryptosleepCasketGuestPrisonersNotAllowed>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>Brak osiągalnego, wolnego, zabezpieczonego łóżka dla więźniów w bezpieczniej temperaturze.</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
@@ -195,7 +195,7 @@
   <!-- EN: Too heavy -->
   <TooHeavy>Za ciężkie</TooHeavy>
   <!-- EN: {0_labelShort} is in the same faction. -->
-  <SameFaction>TODO</SameFaction>
+  <SameFaction>{0_labelShort} należy do tej samej frakcji</SameFaction>
 
   <!-- EN: incapable -->
   <Incapable>niezdolność</Incapable>
@@ -219,18 +219,18 @@
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>Nie można założyć: {1_label}</CannotWear>
   <!-- EN: Force equip {1_labelShort} -->
-  <ForceEquipApparel>TODO</ForceEquipApparel>
+  <ForceEquipApparel>Wyekwipuj {1_labelShort}</ForceEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
-  <CannotEquipApparel>TODO</CannotEquipApparel>
+  <CannotEquipApparel>Nie można wyekwipować {1_label}</CannotEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>brakujące części ciała</CannotWearBecauseOfMissingBodyParts>
   
   <!-- EN: Reload {GEAR_labelShort} with {AMMO_label} -->
-  <Reload>TODO</Reload>
+  <Reload>Przeładuj {GEAR_labelShort} przy pomocy {AMMO_label}</Reload>
   <!-- EN: Full -->
-  <ReloadFull>TODO</ReloadFull>
+  <ReloadFull>Pełny</ReloadFull>
   <!-- EN: Too few -->
-  <ReloadNotEnough>TODO</ReloadNotEnough>
+  <ReloadNotEnough>Za mało</ReloadNotEnough>
   
   <!-- EN: Cannot pick up {1_label} -->
   <CannotPickUp>Nie można podnieść: {1_label}</CannotPickUp>
@@ -350,21 +350,21 @@
   <CannotGenericWorkCustom>Nie można wykonać: {0}</CannotGenericWorkCustom>
 
   <!-- EN: Cannot prioritize: incapable of {0} -->
-  <CannotMissingHealthActivities>Nie można prioryzować, niezdolność do: {0}.</CannotMissingHealthActivities>
+  <CannotMissingHealthActivities>Nie można priorytetyzować, niezdolność do: {0}.</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
-  <CannotGenericAlreadyAm>Już prioryzowano {0}: {2_labelShort}</CannotGenericAlreadyAm>
+  <CannotGenericAlreadyAm>Już priorytetyzowano {0}: {2_labelShort}</CannotGenericAlreadyAm>
   <!-- EN: Already {0} -->
-  <CannotGenericAlreadyAmCustom>Już prioryzowano {0}</CannotGenericAlreadyAmCustom>
+  <CannotGenericAlreadyAmCustom>Już priorytetyzowano {0}</CannotGenericAlreadyAmCustom>
 
   <!-- EN: Cannot prioritize: will never do {0} -->
-  <CannotPrioritizeWorkTypeDisabled>Nie można prioryzować, nigdy nie wykona: {0}.</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>Nie można priorytetyzować, nigdy nie wykona: {0}.</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: Cannot trade: lacking necessary title -->
   <CannotTradeMissingTitleAbility>Nie można handlować, brak niezbędnego tytułu</CannotTradeMissingTitleAbility>
 
   <!-- EN: Cannot prioritize: will never {0} -->
-  <CannotPrioritizeWorkGiverDisabled>Nie można prioryzować, nigdy nie będzie: {0}</CannotPrioritizeWorkGiverDisabled>
+  <CannotPrioritizeWorkGiverDisabled>Nie można priorytetyzować, nigdy nie będzie: {0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>nigdy nie będzie: {0}</WillNever>
 
@@ -374,29 +374,29 @@
   <NotAssigned>nie przypisano</NotAssigned>
 
   <!-- EN: Cannot prioritize: research is a long-term task -->
-  <CannotPrioritizeResearch>Nie można prioryzować, badania są zadaniem długoterminowym</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>Nie można priorytetyzować, badania są zadaniem długoterminowym</CannotPrioritizeResearch>
 
   <!-- EN: Cannot prioritize: {1_label} is forbidden -->
-  <CannotPrioritizeForbidden>Nie można prioryzować: {1_label} - oznaczono jako zakazane.</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>Nie można priorytetyzować: {1_label} - oznaczono jako zakazane.</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: forbidden -->
-  <CannotPrioritizeCellForbidden>Nie można prioryzować: zakazane</CannotPrioritizeCellForbidden>
+  <CannotPrioritizeCellForbidden>Nie można priorytetyzować: zakazane</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>Znajduje się poza dozwolonym obszarem</CannotPrioritizeForbiddenOutsideAllowedArea>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
-  <PrioritizeGeneric>Prioryzuj {0}: {1}</PrioritizeGeneric>
+  <PrioritizeGeneric>Priorytetyzuj {0}: {1}</PrioritizeGeneric>
   
   <!-- EN: Drop at edge -->
-  <DropAtEdge>Upuść na skraju</DropAtEdge>
+  <DropAtEdge>Lądowanie na skraju</DropAtEdge>
   <!-- EN: Drop in center -->
-  <DropInCenter>Upuść na środku</DropInCenter>
+  <DropInCenter>Lądowanie na środku</DropInCenter>
   <!-- EN: Attack {0} -->
-  <AttackShuttle>TODO</AttackShuttle>
+  <AttackShuttle>Atak {0}</AttackShuttle>
   <!-- EN: Attack {0}: Drop at edge -->
-  <AttackAndDropAtEdge>Zaatakuj - {0}: Upuść na skraju</AttackAndDropAtEdge>
+  <AttackAndDropAtEdge>Atak - {0}: Lądowanie na skraju</AttackAndDropAtEdge>
   <!-- EN: Attack {0}: Drop in center -->
-  <AttackAndDropInCenter>Zaatakuj - {0}: Upuść na środku</AttackAndDropInCenter>
+  <AttackAndDropInCenter>Atak - {0}: Lądowanie na środku</AttackAndDropInCenter>
   
   <!-- EN: vomiting -->
   <VomitingLower>wymiotuje</VomitingLower>
@@ -441,6 +441,6 @@
   <ApplyTechprint>zatwierdź {0}</ApplyTechprint>
 
   <!-- EN: Too dangerous -->
-  <EnterCooldownBlocksEntering>TODO</EnterCooldownBlocksEntering>
+  <EnterCooldownBlocksEntering>Zbyt niebezpieczne</EnterCooldownBlocksEntering>
   
 </LanguageData>

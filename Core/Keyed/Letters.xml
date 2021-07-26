@@ -14,27 +14,27 @@
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>Lato</LetterLabelFirstSummerWarning>
   <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
-  <FirstSummerWarning>Lato właśnie się rozpoczęło! Ale nadciąga także zima.\n\nTwoje uprawy nie będą rosły podczas mrozów. Nie zapomnij, aby zrobić zapasy żywności, zanim rozpocznie się zima.\n\nZbuduj chłodnię, aby ochronić pożywienie przed zepsuciem.\n\nSpróbuj też kupić, uszyć lub ewentualnie ukraść kilka płaszczy zimowych - w przeciwnym razie koloniści zamarzną, gdy wyjdą na zewnątrz.</FirstSummerWarning>
+  <FirstSummerWarning>Lato właśnie się rozpoczęło! Ale nadciąga także zima.\n\nTwoje uprawy nie będą rosły podczas mrozów. Nie zapomnij, aby przygotować zapasy żywności, zanim rozpocznie się zima.\n\nZbuduj chłodnię, aby ochronić pożywienie przed zepsuciem.\n\nSpróbuj też kupić, uszyć lub ewentualnie ukraść ubrania na zimę - w przeciwnym razie, twoi ludzie zamarzną, gdy wyjdą na zewnątrz.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
-  <LetterRelationsChange_Hostile>Relacje z frakcją {0} zupełnie podupadły, co oznacza, że od teraz są wrogo nastawieni.\n\nBędą atakować Twoją kolonię i karawany oraz odmówią handlu. Jeśli chcesz naprawić tę relację, wciąż możesz oferować im podarunki używając karawan lub kapsuł transportowych.\n\nStało się tak, ponieważ reputacja ({1}) znalazła się poniżej {2}. Aby odzyskać neutralność między frakcjami, reputacja musi ponownie osiągnąć poziom {3}.</LetterRelationsChange_Hostile>  
+  <LetterRelationsChange_Hostile>Relacje z frakcją {0} doszczętnie się zepsuły, co oznacza, że od teraz są wrogo nastawieni.\n\nBędą atakować Twoją kolonię i karawany oraz odmówią handlu. Jeśli chcesz naprawić relacje z tą frakcją, możesz oferować im podarunki używając karawan lub kapsuł transportowych.\n\nStało się tak, ponieważ reputacja ({1}) znalazła się poniżej {2}. Aby odzyskać neutralność między frakcjami, reputacja musi ponownie osiągnąć poziom {3}.</LetterRelationsChange_Hostile>  
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription>TODO</LetterRelationsChange_HostileGoodwillDescription>  
+  <LetterRelationsChange_HostileGoodwillDescription>Będą atakować Twoją kolonię i karawany oraz odmówią handlu. Jeśli chcesz naprawić relacje z tą frakcją, możesz oferować im podarunki używając karawan lub kapsuł transportowych.\n\nStało się tak, ponieważ reputacja ({0}) znalazła się poniżej {1}}. Aby odzyskać neutralność między frakcjami, reputacja musi ponownie osiągnąć poziom {2}.</LetterRelationsChange_HostileGoodwillDescription>  
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
-  <LetterRelationsChange_NeutralFromHostile>Relacje z frakcją {0} nieco się polepszyły. Teraz uważają Cię za neutralnego i nie będą Cię już atakować.\n\nStało się tak, ponieważ reputacja ({1}) podniosła się do {2}. Jeśli ponownie będzie poniżej {3}, to staną się wrodzy. Jeśli reputacja zwiększy się o ponad {4}, staną się Twoimi sojusznikami oraz będą dla Ciebie walczyć.</LetterRelationsChange_NeutralFromHostile>
+  <LetterRelationsChange_NeutralFromHostile>Relacje z frakcją {0} się ociepliły. Teraz uważają twoich ludzi za neutralnych i nie będą Cię już atakować.\n\nStało się tak, ponieważ reputacja ({1}) podniosła się do {2}. Jeśli ponownie spadnie poniżej {3}, znów staną się wrodzy. Jeśli reputacja zwiększy się o ponad {4}, staną się Twoimi sojusznikami i będą dla Ciebie walczyć.</LetterRelationsChange_NeutralFromHostile>
   <!-- EN: This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
-  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>TODO</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
+  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>Stało się tak, ponieważ reputacja ({1}) podniosła się do {2}. Jeśli reputacja ponownie spadnie poniżej {3}, ta frakcja znów stanie się wroga. Jeśli reputacja zwiększy się o ponad {4}, staną się Twoimi sojusznikami i będą dla Ciebie walczyć.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
   
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
-  <LetterRelationsChange_NeutralFromAlly>Relacje z frakcją {0} ochłodziły się. Teraz uważają Cię za neutralnego.\n\nDalej będą traktować Cię pokojowo, lecz nie przyślą ludzi do pomocy w walce.\n\nStało się tak, ponieważ reputacja ({1}) spadła poniżej {2}. Jeśli reputacja spadnie poniżej {3}, {0} będą wrogo nastawieni. Jeśli podniesie się powyżej {4}, staną się znów sojusznikami.</LetterRelationsChange_NeutralFromAlly>
+  <LetterRelationsChange_NeutralFromAlly>Relacje z frakcją {0} ochłodziły się. Teraz uważają twoich ludzi za neutralnych.\n\nDalej będą traktować Cię pokojowo, lecz nie przyślą ludzi do pomocy w walce.\n\nStało się tak, ponieważ reputacja ({1}) spadła poniżej {2}. Jeśli reputacja spadnie poniżej {3}, {0} będą wrogo nastawieni. Jeśli podniesie się powyżej {4}, staną się znów sojusznikami.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
-  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>TODO</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
+  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>Chociaż dalej będą traktować twoją frakcję pokojowo, nie przyślą ludzi do pomocy w walce.\n\nStało się tak, ponieważ reputacja ({1}) spadła poniżej {2}. Jeśli reputacja spadnie poniżej {3}, {0} będą wrogo nastawieni. Jeśli podniesie się powyżej {4}, staną się znów sojusznikami.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
   
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
-  <LetterRelationsChange_Ally>Relacje z frakcją {0} stały się bardzo bliskie. Teraz uważają Cię za sojusznika.\n\nSojusznicy czasem będą przybywać, aby pomóc w walce z Twoimi przeciwnikami. Możesz również poprosić ich o pomoc kosztem reputacji.\n\nStaliście się sojusznikami, ponieważ Twoja reputacja ({1}) podniosła się o {2}. Jeśli spadnie poniżej {3}, relacje powrócą do neutralnych.</LetterRelationsChange_Ally>
+  <LetterRelationsChange_Ally>Relacje z frakcją {0} stały się bardzo bliskie. Teraz uważają Cię za sojusznika.\n\nSojusznicy będą okazjonalnie przybywać, aby pomóc w walce z Twoimi przeciwnikami. Możesz również poprosić ich o pomoc kosztem reputacji.\n\nStaliście się sojusznikami, ponieważ Twoja reputacja ({1}) podniosła się o {2}. Jeśli spadnie poniżej {3}, relacje powrócą do neutralnych.</LetterRelationsChange_Ally>
   <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
-  <LetterRelationsChange_AllyGoodwillDescription>TODO</LetterRelationsChange_AllyGoodwillDescription>
+  <LetterRelationsChange_AllyGoodwillDescription>Sojusznicy będą okazjonalnie przybywać, aby pomóc w walce z Twoimi przeciwnikami. Możesz również poprosić ich o pomoc kosztem reputacji.\n\nStaliście się sojusznikami, ponieważ Twoja reputacja ({0}) podniosła się o {1}. Jeśli spadnie poniżej {2}, relacje powrócą do neutralnych.</LetterRelationsChange_AllyGoodwillDescription>
 
   <!-- EN: goodwill -->
   <goodwill>reputacja</goodwill>
@@ -91,7 +91,7 @@
   <!-- EN: {0} was formerly part of your faction. -->
   <PawnWasFormerlyColonist>{0} {0_gender ? był : była} poprzednio częścią Twojej frakcji.</PawnWasFormerlyColonist>
   <!-- EN: You previously hosted {0}. -->
-  <PawnWasFormerlyLodger>TODO</PawnWasFormerlyLodger>
+  <PawnWasFormerlyLodger>Wcześniej zorganizowane: {0}</PawnWasFormerlyLodger>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
   <PawnHasTheseRelationshipsWithColonists>{1_labelShort} ma następujące relacje z Twoimi kolonistami:</PawnHasTheseRelationshipsWithColonists>
 
@@ -138,7 +138,7 @@
   <LetterLeaderChanged>{OLDLEADER_nameFull} nie pełni już funkcji {3} frakcji {1}.\n\nNowy {3} to {NEWLEADER_nameFull}.</LetterLeaderChanged>
 
   <!-- EN: The new {0} is {NEWLEADER_nameFull}. -->
-  <LetterNewLeader>TODO</LetterNewLeader>
+  <LetterNewLeader>Nowy {0} to {NEWLEADER_nameFull}</LetterNewLeader>
 
   <!-- EN: The final straw was: {0} -->
   <FinalStraw>Ostateczny powód to: {0}.</FinalStraw>
@@ -161,7 +161,7 @@
   <LastEventsInLife>Ostatnie wydarzenia w życiu {PAWN_definite}</LastEventsInLife>
 
   <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration! -->
-  <LetterInspirationBeginThanksToHighMoodPart>TODO</LetterInspirationBeginThanksToHighMoodPart>
+  <LetterInspirationBeginThanksToHighMoodPart>Ze względu na wysoki nastrój, [PAWN_nameIndef] {PAWN_gender ? doznał : doznała} inspiracji!</LetterInspirationBeginThanksToHighMoodPart>
 
   <!-- Related pawns -->
   <!-- EN: Relationship -->
@@ -206,7 +206,7 @@
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
   <LetterNoLongerLovers>{PAWN1_labelShort} i {PAWN2_labelShort} nie są już parą.</LetterNoLongerLovers>
   <!-- EN: {PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name. -->
-  <LetterNoLongerLovers_BackToBirthName>TODO</LetterNoLongerLovers_BackToBirthName>
+  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} zmieni swoje nazwisko na to sprzed małżeństwa.</LetterNoLongerLovers_BackToBirthName>
   <!-- EN: Breakup -->
   <LetterLabelBreakup>Rozstanie</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
@@ -216,7 +216,7 @@
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
   <LetterAcceptedProposal>{1} akceptuje oświadczyny {0}.\n\nW nadchodzącym czasie zorganizują ceremonię ślubną i zaproszą wszystkich kolonistów. Rozważ umieszczenie miejsca ślubów, jeśli chcesz mieć kontrolę nad tym, gdzie odbędzie się ceremonia.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
-  <LetterAcceptedProposal_NameChange>TODO</LetterAcceptedProposal_NameChange>
+  <LetterAcceptedProposal_NameChange>{PAWN_label} zmieni swoje nazwisko na {1}</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
   <LetterRejectedProposal>{INITIATOR_nameFull} będzie przez to {INITIATOR_gender ? nieszczęśliwy : nieszczęśliwa}.</LetterRejectedProposal>
 
@@ -282,7 +282,7 @@
   <!-- EN: Your transport pods have arrived at {0}. -->
   <LetterTransportPodsLandedInEnemyBase>Twoje kapsuły transportowe dotarły do {0}.</LetterTransportPodsLandedInEnemyBase>
   <!-- EN: The shuttle has arrived at {0}. -->
-  <LetterShuttleLandedInEnemyBase>TODO</LetterShuttleLandedInEnemyBase>
+  <LetterShuttleLandedInEnemyBase>Wahadłowiec przybył w {0}</LetterShuttleLandedInEnemyBase>
 
   <!-- Faction base defeated -->
   <!-- EN: Base destroyed -->
@@ -308,7 +308,7 @@
   <!-- EN: Scanned underground -->
   <LetterLabelDeepScannerFoundLump>Przeskanowano podziemia</LetterLabelDeepScannerFoundLump>
   <!-- EN: {FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner! -->
-  <LetterDeepScannerFoundLump>TODO</LetterDeepScannerFoundLump>
+  <LetterDeepScannerFoundLump>Natrafiliśmy na złoże zakopanego {0} przy pomocy skanera!</LetterDeepScannerFoundLump>
 
   <!-- Ambush -->
   <!-- EN: Ambush -->
@@ -458,7 +458,7 @@
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRefugeeJoins>{PAWN_nameDef} dołącza</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>TODO</LetterRefugeeJoins>
+  <LetterRefugeeJoins>{PAWN_title} {PAWN_nameDef} przybyła i dołącza do kolonii.</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
@@ -492,10 +492,10 @@
   
   <!-- Colonist kidnapped -->
   <!-- EN: {PAWN_nameDef} kidnapped -->
-  <LetterLabelPawnsKidnapped>TODO</LetterLabelPawnsKidnapped>
+  <LetterLabelPawnsKidnapped>{PAWN_nameDef} porwany</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>TODO</LetterPawnsKidnapped>
+  <LetterPawnsKidnapped>{PAWN_nameDef} {PAWN_gender ? został : została} {PAWN_gender ? porwany : porwana} przez {FACTION_name}! \n\nJednakże, istnieje wciąż szansa na {PAWN_gender ? jego : jej} odzyskanie, która może ukazać się w najbliższych dniach.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
@@ -541,7 +541,7 @@
   <LetterMechClusterArrived>Mechanoidy właśnie przybyły.</LetterMechClusterArrived>
 
   <!-- EN: Caravan detected -->
-  <LetterLabelSiteCountdownStarted>TODO</LetterLabelSiteCountdownStarted>
+  <LetterLabelSiteCountdownStarted>Wykryto karawanę</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
   <LetterTextSiteCountdownStarted>TODO</LetterTextSiteCountdownStarted>
 

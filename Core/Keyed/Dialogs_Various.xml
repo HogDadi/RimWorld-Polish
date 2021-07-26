@@ -505,29 +505,29 @@
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>Kliknij, aby zobaczyć frakcje.</ClickToViewFactions>
   <!-- EN: meditation focus types -->
-  <MeditationFocuses>TODO</MeditationFocuses>
+  <MeditationFocuses>rodzaje medytacji</MeditationFocuses>
   <!-- EN: Unlocks meditation focus types -->
-  <MeditationFocusesUnlocked>TODO</MeditationFocusesUnlocked>
+  <MeditationFocusesUnlocked>Odblokowuje rodzaje medytacji</MeditationFocusesUnlocked>
   <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
-  <MeditationFocusesPawnDesc>TODO</MeditationFocusesPawnDesc>
+  <MeditationFocusesPawnDesc>Rodzaje medytacji z których może korzystać ta osoba. Podczas medytacji, osoba może skupić się na obiekcie by szybciej odzyskiwać PSI - lecz tylko wtedy, gdy obiekt oferuje ten rodzaj skupienia, z którego może korzystać dana osoba. Dostępne rodzaje medytacji, różnią się zależnie od przeszłości, cech charakteru i statusu społecznego danej osoby.</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
-  <MeditationFocusesDesc>TODO</MeditationFocusesDesc>
+  <MeditationFocusesDesc>Rodzaje medytacji jakie mogą być praktykowane na tym obiekcie. Medytująca osoba może skupić się na tym obiekcie aby szybciej zyskiwać PSI - lecz tylko wtedy, gdy obiekt oferuje ten rodzaj skupienia, z którego może korzystać dana osoba. Dostępne rodzaje medytacji, różnią się zależnie od przeszłości, cech charakteru i statusu społecznego danej osoby.</MeditationFocusesDesc>
   <!-- EN: Can use {0} focus type because -->
-  <MeditationFocusCanUse>TODO</MeditationFocusCanUse>
+  <MeditationFocusCanUse>Może korzystać z {0} skupienia, ponieważ</MeditationFocusCanUse>
   <!-- EN: {0} focus objects -->
-  <MeditationFocusObjects>TODO</MeditationFocusObjects>
+  <MeditationFocusObjects>{0} obiekty medytacji</MeditationFocusObjects>
   <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
-  <MeditationFocusEnabledByTitle>TODO</MeditationFocusEnabledByTitle>
+  <MeditationFocusEnabledByTitle>posiada tytuł: {TITLE} ({FACTION_name}).</MeditationFocusEnabledByTitle>
   <!-- EN: has childhood -->
-  <MeditationFocusEnabledByChildhood>TODO</MeditationFocusEnabledByChildhood>
+  <MeditationFocusEnabledByChildhood>posiada przeszłość (dzieciństwo)</MeditationFocusEnabledByChildhood>
   <!-- EN: has adulthood -->
-  <MeditationFocusEnabledByAdulthood>TODO</MeditationFocusEnabledByAdulthood>
+  <MeditationFocusEnabledByAdulthood>posiada przeszłość</MeditationFocusEnabledByAdulthood>
   <!-- EN: has trait -->
-  <MeditationFocusEnabledByTrait>TODO</MeditationFocusEnabledByTrait>
+  <MeditationFocusEnabledByTrait>posiada cechę</MeditationFocusEnabledByTrait>
   <!-- EN: does not have trait -->
-  <MeditationFocusDisabledByTrait>TODO</MeditationFocusDisabledByTrait>
+  <MeditationFocusDisabledByTrait>nie posiada cechy</MeditationFocusDisabledByTrait>
   <!-- EN: Enables meditation focus types -->
-  <EnablesMeditationFocusType>TODO</EnablesMeditationFocusType>
+  <EnablesMeditationFocusType>Pozwala na następujące rodzaje medytacji</EnablesMeditationFocusType>
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->

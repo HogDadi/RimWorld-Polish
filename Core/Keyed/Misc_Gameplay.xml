@@ -247,9 +247,9 @@
   <!-- EN: Map -->
   <Map>Mapa</Map>
   <!-- EN: {0} until enemies arrive -->
-  <CaravanDetectedRaidCountdown>TODO</CaravanDetectedRaidCountdown>
+  <CaravanDetectedRaidCountdown>{0} do przybycia sił wroga</CaravanDetectedRaidCountdown>
   <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
-  <CaravanDetectedRaidCountdownTip>TODO</CaravanDetectedRaidCountdownTip>
+  <CaravanDetectedRaidCountdownTip>Posiłki nieprzyjaciela przybędą za {0}</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Pomieszczenie</Room>
   <!-- EN: Beauty here -->
