@@ -22,7 +22,14 @@
     <li>bandit->Robber</li>
     <li>bandit->Brigand</li>
   -->
-  <OpportunitySite_BanditCamp.questNameRules.rulesStrings>TODO</OpportunitySite_BanditCamp.questNameRules.rulesStrings>
+  <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
+    <li>questName->[asker_nameDef] cena za zniszczenie obozowiska</li>
+    <li>questName->Obozowisko [enemyFaction_pawnsPlural]</li>
+    <li>questName->Obóz Bandytów</li>
+    <li>questName->Obóz Najeźdźców</li>
+    <li>questName->Zniszcz Obóz</li>
+    <li>questName->Pomaga [asker_nameDef]</li>
+    </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>Zadanie wygasło: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>
   <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->

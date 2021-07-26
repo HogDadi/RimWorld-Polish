@@ -178,11 +178,11 @@
   <SoldMyBondedAnimal.stages.bonded_animal_given_away.labelSocial>oddano innym moje zwierzę</SoldMyBondedAnimal.stages.bonded_animal_given_away.labelSocial>
   
   <!-- EN: bonded animal given away -->
-  <SoldMyBondedAnimalMood.stages.bonded_animal_given_away.label>TODO</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.label>
+  <SoldMyBondedAnimalMood.stages.bonded_animal_given_away.label>mój zwierzak został sprzedany</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.label>
   <!-- EN: My special bonded animal was given away! -->
-  <SoldMyBondedAnimalMood.stages.bonded_animal_given_away.description>TODO</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.description>
+  <SoldMyBondedAnimalMood.stages.bonded_animal_given_away.description>Moje zwierzę zostało sprzedane!</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.description>
   <!-- EN: gave away my bonded animal -->
-  <SoldMyBondedAnimalMood.stages.bonded_animal_given_away.labelSocial>TODO</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.labelSocial>
+  <SoldMyBondedAnimalMood.stages.bonded_animal_given_away.labelSocial>Sprzedano moje zwierzę</SoldMyBondedAnimalMood.stages.bonded_animal_given_away.labelSocial>
   
   <!-- EN: loved one sold -->
   <SoldMyLovedOne.stages.loved_one_sold.label>sprzedał mojego ukochanego</SoldMyLovedOne.stages.loved_one_sold.label>

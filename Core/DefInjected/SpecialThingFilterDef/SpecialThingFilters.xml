@@ -34,7 +34,7 @@
   <AllowFresh.description>Dopuszczaj substancje organiczne, które jeszcze nie zaczęły gnić.</AllowFresh.description>
   
   <!-- EN: allow non-biocoded apparel -->
-  <AllowNonBiocodedApparel.label>TODO</AllowNonBiocodedApparel.label>
+  <AllowNonBiocodedApparel.label>dopuść niebiokodowany ubiór</AllowNonBiocodedApparel.label>
   
   <!-- EN: allow non-biocoded weapons -->
   <AllowNonBiocodedWeapons.label>dopuść niebiokodowane bronie</AllowNonBiocodedWeapons.label>

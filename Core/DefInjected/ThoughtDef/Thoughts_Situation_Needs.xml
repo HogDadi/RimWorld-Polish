@@ -142,30 +142,30 @@
   <NeedJoy.stages.recreation_fully_satisfied.description>Prześwietnie się bawię!</NeedJoy.stages.recreation_fully_satisfied.description>
   
   <!-- EN: entombed underground -->
-  <NeedOutdoors.stages.entombed_underground.label>TODO</NeedOutdoors.stages.entombed_underground.label>
+  <NeedOutdoors.stages.entombed_underground.label>pogrzebanie żywcem</NeedOutdoors.stages.entombed_underground.label>
   <!-- EN: I've been underground too long. I feel like the weight of this mountain is crushing me. I need to see the sky and feel the wind. -->
   <NeedOutdoors.stages.entombed_underground.description>TODO</NeedOutdoors.stages.entombed_underground.description>
   <!-- EN: trapped underground -->
-  <NeedOutdoors.stages.trapped_underground.label>TODO</NeedOutdoors.stages.trapped_underground.label>
+  <NeedOutdoors.stages.trapped_underground.label>odcięcie od świata</NeedOutdoors.stages.trapped_underground.label>
   <!-- EN: How long have I been underground? I need to get out in the fresh air and spend some time under the sky. -->
   <NeedOutdoors.stages.trapped_underground.description>TODO</NeedOutdoors.stages.trapped_underground.description>
   <!-- EN: cabin fever -->
-  <NeedOutdoors.stages.cabin_fever.label>TODO</NeedOutdoors.stages.cabin_fever.label>
+  <NeedOutdoors.stages.cabin_fever.label>uwięzienie wewnątrz</NeedOutdoors.stages.cabin_fever.label>
   <!-- EN: I've spent so long indoors I feel like the roof is pressing in. I need to get out and see the sky. -->
   <NeedOutdoors.stages.cabin_fever.description>TODO</NeedOutdoors.stages.cabin_fever.description>
   <!-- EN: trapped indoors -->
-  <NeedOutdoors.stages.trapped_indoors.label>TODO</NeedOutdoors.stages.trapped_indoors.label>
+  <NeedOutdoors.stages.trapped_indoors.label>zamknięcie wewnątrz</NeedOutdoors.stages.trapped_indoors.label>
   <!-- EN: It's been too long since I've seen the sky. -->
   <NeedOutdoors.stages.trapped_indoors.description>TODO</NeedOutdoors.stages.trapped_indoors.description>
   <!-- EN: stuck indoors -->
-  <NeedOutdoors.stages.stuck_indoors.label>TODO</NeedOutdoors.stages.stuck_indoors.label>
+  <NeedOutdoors.stages.stuck_indoors.label>zbyt długo wewnątrz</NeedOutdoors.stages.stuck_indoors.label>
   <!-- EN: I'd like to go outside and get some fresh air. -->
-  <NeedOutdoors.stages.stuck_indoors.description>TODO</NeedOutdoors.stages.stuck_indoors.description>
+  <NeedOutdoors.stages.stuck_indoors.description>Muszę wyjść na dwór i zaczerpnąć nieco świeżego powietrza.</NeedOutdoors.stages.stuck_indoors.description>
   
   <!-- EN: drowsy -->
   <NeedRest.stages.drowsy.label>senność</NeedRest.stages.drowsy.label>
   <!-- EN: I haven't slept in a while. It's hard to keep focus. -->
-  <NeedRest.stages.drowsy.description>Od jakiegoś czasu nie śpię. Trudno jest mi się skupić.</NeedRest.stages.drowsy.description>
+  <NeedRest.stages.drowsy.description>Od dłuższego czasu nie mogę zmrużyć powiek. Trudno jest mi się skupić.</NeedRest.stages.drowsy.description>
   <!-- EN: tired -->
   <NeedRest.stages.tired.label>zmęczenie</NeedRest.stages.tired.label>
   <!-- EN: I'm so tired. I just want to lay down and rest for a few minutes... -->
@@ -186,6 +186,6 @@
   <!-- EN: spacious interior -->
   <NeedRoomSize.stages.spacious_interior.label>przestronne wnętrze</NeedRoomSize.stages.spacious_interior.label>
   <!-- EN: This room is so expansive, I feel free. -->
-  <NeedRoomSize.stages.spacious_interior.description>To pomieszczenie jest bardzo przestronne. Czuje się swobodnie.</NeedRoomSize.stages.spacious_interior.description>
+  <NeedRoomSize.stages.spacious_interior.description>To pomieszczenie jest bardzo przestronne. Czuję się swobodnie.</NeedRoomSize.stages.spacious_interior.description>
   
 </LanguageData>
