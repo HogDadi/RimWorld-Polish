@@ -12,8 +12,10 @@
     <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
   -->
   <Beggars.questContentRules.rulesStrings>
-    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] [wasWere]</li>
-    <li>letterTextBeggarsBetrayed->[groupLabelSingleOrPlural] [wasWere] twojej organizacji charytatywnej [hasHave]. Koloniści z przekonaniami charytatywnymi będą nieszczęśliwi.</li>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] [zdradz]</li>
+    <li>letterTextBeggarsBetrayed->[groupLabelSingleOrPlural] [wasWere] twojego miłosierdzia [hasHave]. Koloniści o dobroczynnych przekonaniach będą nieszczęśliwi.</li>
+    <li>zdradz(beggarCount==1)->zdradzony</li>
+    <li>zdradz(beggarCount>=2)->zdradzeni</li>
     <li>hasHave(beggarCount==1)->został zdradzony</li>
     <li>hasHave(beggarCount>=2)->zostali zdradzeni</li>
     <li>wasWere(beggarCount==1)->który szukał</li>
@@ -50,15 +52,15 @@
     <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] will move on after [visitDurationTicks_duration]</li>
   -->
   <Beggars.questDescriptionRules.rulesStrings>
-    <li>groupLabelPlural->podróżnicy</li> 
-    <li>groupLabelSingle->podróżnik</li> 
+    <li>groupLabelPlural->podróżnicy</li>
+    <li>groupLabelSingle->podróżnik</li>
     <li>ichGo(beggarCount==1)->go</li>
     <li>ichGo(beggarCount>=2)->ich</li>
     <li>nieJestNieSa(beggarCount==1)->nie jest</li>
     <li>nieJestNieSa(beggarCount>=2)->nie są</li>
     <li>travelerInfo(beggarCount==1)->Ten [groupLabelSingle]</li>
     <li>travelerInfo(beggarCount>=2)->Ci [groupLabelPlural]</li>
-    <li>beggingForInfo-> x[requestedThingCount] [requestedThing_label]</li>
+    <li>beggingForInfo->x[requestedThingCount] [requestedThing_label]</li>
     <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
     <li>traverObjective(beggarCount>=2)->im</li>
     <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] [nieJestNieSa] częścią żadnej frakcji. Jeśli chcesz, możesz [ichGo] zabić lub aresztować bez konsekwencji dyplomatycznych.</li>
@@ -70,7 +72,7 @@
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] potrzebuje lekarstwa, aby pomóc podróżnemu w pobliżu, który jest ranny</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] chce, aby lekarstwo uratowało jego lojalnego zwierzaka, który w drodze został ranny</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] potrzebuje [requestedThing_label], aby zaszczepić chorego przyjaciela przeciw śmiertelnej chorobie</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] chce, utopić smutek po stracie towarzysza w strasznym wypadku</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] chce, utopić smutek po stracie towarzysza podczas ataku</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Chcą srebra, żeby odkupić niedawno porwanego przyjaciela</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Potrzebują lekarstwa, aby podjąć próbę ratowania życia innego podróżnika, który został zaatakowany przez mechanoidy</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Potrzebują lekarstwa, aby pomóc swoim przyjaciołom w pobliskiej osadzie, która została zdewastowana przez najeźdźców</li>
@@ -117,12 +119,12 @@
     <li>beggarPlural->podróżnicy</li>
     <li>seekingSingle->szuka</li>
     <li>seekingSingle->uprasza się</li>
-    <li>seekingSingle->życzy sobię</li>
+    <li>seekingSingle->życzy sobie</li>
     <li>seekingSingle->pragnie</li>
     <li>seekingSingle->potrzebuję</li>
     <li>seekingPlural->szukają</li>
     <li>seekingPlural->upraszają się</li>
-    <li>seekingPlural->życzą sobię</li>
+    <li>seekingPlural->życzą sobie</li>
     <li>seekingPlural->pragną</li>
     <li>seekingPlural->potrzebują</li>
     <li>alms->jałmużny</li>

@@ -2,27 +2,30 @@
 <LanguageData>
   
   <!-- EN: blight -->
-  <Blight.label>zaraza</Blight.label>
+  <Blight.label>Zaraza</Blight.label>
   
   <!-- EN: explosion -->
-  <Explosion.label>eksplozja</Explosion.label>
+  <Explosion.label>Eksplozja</Explosion.label>
+  
+  <!-- EN: flying -->
+  <PawnJumper.label>Leci</PawnJumper.label>
   
   <!-- EN: proximity trigger -->
-  <RadialTrigger.label>TODO</RadialTrigger.label>
+  <RadialTrigger.label>Wyzwalacz zbliżeniowy</RadialTrigger.label>
   
   <!-- EN: rect trigger -->
-  <RectTrigger.label>TODO</RectTrigger.label>
+  <RectTrigger.label>Prostokątny wyzwalacz</RectTrigger.label>
   
   <!-- EN: tornado -->
-  <Tornado.label>tornado</Tornado.label>
+  <Tornado.label>Tornado</Tornado.label>
   
   <!-- EN: trigger container emptied -->
-  <TriggerContainerEmptied.label>TODO</TriggerContainerEmptied.label>
+  <TriggerContainerEmptied.label>Wyzwalacz opróżnienia pojemnika</TriggerContainerEmptied.label>
   
   <!-- EN: trigger unfogged -->
-  <TriggerUnfogged.label>TODO</TriggerUnfogged.label>
+  <TriggerUnfogged.label>Wyzwalacz odmgławienia</TriggerUnfogged.label>
   
   <!-- EN: tunnel -->
-  <TunnelHiveSpawner.label>tunel</TunnelHiveSpawner.label>
+  <TunnelHiveSpawner.label>Tunel</TunnelHiveSpawner.label>
   
 </LanguageData>

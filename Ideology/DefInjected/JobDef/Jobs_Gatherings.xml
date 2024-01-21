@@ -1,16 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: accepting role. -->
+  <AcceptRole.reportString>przyjmuje rolę.</AcceptRole.reportString>
+  
   <!-- EN: dancing. -->
-  <Dance.reportString>TODO</Dance.reportString>
+  <Dance.reportString>tańczy.</Dance.reportString>
   
   <!-- EN: eating at TargetA. -->
-  <EatAtCannibalPlatter.reportString>TODO</EatAtCannibalPlatter.reportString>
+  <EatAtCannibalPlatter.reportString>konsumuje przy: TargetA.</EatAtCannibalPlatter.reportString>
   
   <!-- EN: relaxing socially. -->
-  <GotoAndBeSociallyActive.reportString>TODO</GotoAndBeSociallyActive.reportString>
+  <GotoAndBeSociallyActive.reportString>odpręża się towarzysko.</GotoAndBeSociallyActive.reportString>
   
   <!-- EN: making a skylantern. -->
-  <PrepareSkylantern.reportString>TODO</PrepareSkylantern.reportString>
+  <PrepareSkylantern.reportString>robi latający lampion.</PrepareSkylantern.reportString>
   
 </LanguageData>

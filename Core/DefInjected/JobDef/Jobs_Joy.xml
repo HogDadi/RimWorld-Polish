@@ -26,7 +26,7 @@
   <Play_Horseshoes.reportString>gra w podkowy.</Play_Horseshoes.reportString>
   
   <!-- EN: playing TargetA. -->
-  <Play_MusicalInstrument.reportString>TODO</Play_MusicalInstrument.reportString>
+  <Play_MusicalInstrument.reportString>gra w TargetA.</Play_MusicalInstrument.reportString>
   
   <!-- EN: playing poker. -->
   <Play_Poker.reportString>gra w pokera.</Play_Poker.reportString>
@@ -38,7 +38,7 @@
   <Skygaze.reportString>wpatruje się w niebo.</Skygaze.reportString>
   
   <!-- EN: relaxing socially. -->
-  <SocialRelax.reportString>odpręża się społecznie.</SocialRelax.reportString>
+  <SocialRelax.reportString>odpręża się towarzysko.</SocialRelax.reportString>
   
   <!-- EN: using telescope. -->
   <UseTelescope.reportString>używa teleskopu.</UseTelescope.reportString>
@@ -50,7 +50,7 @@
   <VisitGrave.reportString>odwiedza grób.</VisitGrave.reportString>
   
   <!-- EN: cheering up patient TargetA. -->
-  <VisitSickPawn.reportString>pociesza: TargetA.</VisitSickPawn.reportString>
+  <VisitSickPawn.reportString>pociesza pacjenta TargetA.</VisitSickPawn.reportString>
   
   <!-- EN: watching television. -->
   <WatchTelevision.reportString>ogląda telewizję.</WatchTelevision.reportString>

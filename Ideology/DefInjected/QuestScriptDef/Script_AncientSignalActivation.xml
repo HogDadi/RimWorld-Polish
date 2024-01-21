@@ -5,13 +5,13 @@
     <li>questDescription->ancient signal activation</li>
   -->
   <AncientSignalActivation.questDescriptionRules.rulesStrings>
-    <li>questDescription->starożytna aktywacja sygnału</li>
+    <li>questDescription->aktywacja starożytnych sygnałów</li>
   </AncientSignalActivation.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->ancient signal activation</li>
   -->
   <AncientSignalActivation.questNameRules.rulesStrings>
-    <li>questDescription->starożytna aktywacja sygnału</li>
+    <li>questDescription->aktywacja starożytnych sygnałów</li>
   </AncientSignalActivation.questNameRules.rulesStrings>
   
 </LanguageData>

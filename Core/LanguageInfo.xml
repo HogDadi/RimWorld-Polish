@@ -28,7 +28,31 @@
     </li>
     <li Class="CreditRecord_Role">
       <roleKey>Credit_Translator</roleKey>
-      <creditee>Mr. Fossil</creditee>
-  </li>
+      <creditee>Fortybrass (Mr. Fossil)</creditee>
+    </li>
+    <li Class="CreditRecord_Role">
+      <roleKey>Credit_Translator</roleKey>
+      <creditee>MrKris7100</creditee>
+    </li>
+    <li Class="CreditRecord_Role">
+      <roleKey>Credit_Translator</roleKey>
+      <creditee>Tomikles</creditee>
+    </li>
+    <li Class="CreditRecord_Role">
+      <roleKey>Credit_Translator</roleKey>
+      <creditee>HogDadi</creditee>
+    </li>
+    <li Class="CreditRecord_Role">
+      <roleKey>Credit_Translator</roleKey>
+      <creditee>ŚwiętyJudasz</creditee>
+    </li>
+    <li Class="CreditRecord_Role">
+      <roleKey>Credit_Translator</roleKey>
+      <creditee>Hades3623 (Hurion)</creditee>
+    </li>
+    <li Class="CreditRecord_Role">
+      <roleKey>Credit_Translator</roleKey>
+      <creditee>Krystianh42 (ProDeska)</creditee>
+    </li>
   </credits>
 </LanguageInfo>

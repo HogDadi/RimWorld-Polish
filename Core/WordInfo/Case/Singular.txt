@@ -1,0 +1,1042 @@
+//--------------------------------------------------------------------------
+// słowo klucz(x);dopełniacz(1);celownik(2);biernik(3);więcej jeśli trzeba
+// przykład {lookup: {0}; Case\Singular; 3}
+//--------------------------------------------------------------------------
+
+
+przemowa lidera;przemowy lidera;przemowie lidera;przemowę lidera
+
+//-------------------------------------
+//---------- CORE - ThingDef ----------
+//-------------------------------------
+
+// Alcohol_Beer.xml
+piwo;piwa;piwu;piwo
+brzeczka;brzeczki;brzeczce;brzeczkę
+
+// Ambrosia.xml
+ambrozja;ambrozji;ambrozji;ambrozję
+
+// Apparel_Belts.xml
+pas aktywnej osłony;pasa aktywnej osłony;pasowi aktywnej osłony;pas aktywnej osłony
+
+// Apparel_Headgear.xml
+hełm balistyczny;hełmu balistycznego;hełmowi balistycznemu;hełm balistyczny
+hełm zwiadowcy;hełmu zwiadowcy;hełmowi zwiadowcy;hełm zwiadowcy
+melonik;melonika;melonikowi;melonik
+kapelusz kowbojski;kapelusza kowbojskiego;kapeluszowi kowbojskiemu;kapelusz kowbojski
+kaptur;kaptura;kapturowi;kaptur
+hełm marine;hełmu marine;hełmowi marine;hełm marine
+hełm z folii PSI;hełmu z folii PSI;hełmowi z folii PSI;hełm z folii PSI
+prosty hełm;prostego hełmu;prostemu hełmowi;prosty hełm
+zimowa czapka;zimowej czapki;zimowej czapce;zimową czapkę
+maska wojenna;maski wojennej;masce wojennej;maskę wojenną
+chusta;chusty;chuście;chustę
+plemienne nakrycie głowy;plemiennego nakrycia głowy;plemiennemu nakryciu głowy;plemienne nakrycie głowy
+
+// Apparel_Packs.xml
+paczka dymna;paczki dymnej;paczce dymnej;paczkę dymną
+
+// Apparel_Utility.xml
+lanca obłędu PSI;lancy obłędu PSI;lancy obłędu PSI;lancę obłędu PSI
+lanca wstrząsu PSI;lancy wstrząsu PSI;lancy wstrząsu PSI;lancę wstrząsu PSI
+
+// Apparel_Various.xml
+prochowiec;prochowca;prochowcowi;prochowca
+strój plemienny;stroju plemiennego;strojowi plemiennemu;strój plemienny
+zbroja zwiadowcy;zbroi zwiadowcy;zbroi zwiadowcy;zbroję zwiadowcy
+koszulka;koszulki;koszulce;koszulkę
+koszula;koszuli;koszuli;koszulkę
+kamizelka balistyczna;kamizelki balistycznej;kamizelce balistycznej;kamizelkę balistyczną
+kamizelka kuloodporna;kamizelki kuloodpornej;kamizelce kuloodpornej;kamizelkę kuloodporną
+kurtka;kurtki;kurtce;kurtkę
+parka;parki;parce;parkę
+zbroja płytowa;zbroi płytowej;zbroi płytowej;zbroję płytową
+zbroja marine;zbroi marine;zbroi marine;zbroję marine
+spodnie balistyczne;spodni balistycznych;spodniom balistycznym;spodnie balistyczne
+spodnie;spodni;spodniom;spodnie
+
+// Breach.xml
+topór wyłomowy;topora wyłomowego;toporowi wyłomowemu;topór wyłomowy
+
+// Buildings_Ancient.xml
+starożytna betonowa bariera;starożytnej wyłomowej bariery;starożytnej wyłomowej barierze;starożytną wyłomową barierę
+starożytna latarnia uliczna;starożytnej latarni ulicznej;starożytnej latarni ulicznej;starożytną latarnię uliczną
+urna;urny;urnie;urnę
+
+// Buildings_Art.xml
+bałwan;bałwana;bałwanowi;bałwana
+wielka rzeźba;wielkiej rzeźby;wielkiej rzeźbie;wielką rzeźbę
+duża rzeźba;dużej rzeźby;dużej rzeźbie;dużą rzeźbę
+mała rzeźba;małej rzeźby;małej rzeźbie;małą rzeźbę
+
+// Buildings_Exotic.xml
+fragment statku (wylesiacz);fragmentu statku (wylesiacz);fragmentowi statku (wylesiacz);fragment statku (wylesiacz)
+fragment statku (brzęczyk PSI);fragmentu statku (brzęczyka PSI);fragmentowi statku (brzęczykowi PSI);fragment statku (brzęczyk PSI)
+odłamek statku;odłamka statku;odłamkowi statku;odłamek statku
+
+// Buildings_Furniture.xml
+fotel;fotela;fotelowi;fotel
+śpiwór;śpiwora;śpiworowi;śpiwór
+podwójny śpiwór;podwójnego śpiwora;podwójnemu śpiworowi;podwójny śpiwór
+stolik nocny;stolika nocnego;stolikowi nocnemu;stolik nocny
+regał;regału;regałowi;regał
+stołek;stołka;stołkowi;stołek
+stół (1x2);stołu (1x2);stołowi (1x2);stół (1x2)
+stół (2x2);stołu (2x2);stołowi (2x2);stół (2x2)
+stół (2x4);stołu (2x4);stołowi (2x4);stół (2x4)
+stół (3x3);stołu (3x3);stołowi (3x3);stół (3x3)
+komoda;komody;komodzie;komodę
+doniczka;doniczki;doniczce;doniczkę
+lampa stojąca;lampy stojącej;lampie stojącej;lampę stojącą
+lampa stojąca (niebieska);lampy stojącej (niebieska);lampie stojącej (niebieska);lampę stojącą (niebieska)
+lampa stojąca (zielona);lampy stojącej (zielona);lampie stojącej (zielona);lampę stojącą (zielona)
+lampa stojąca (czerwona);lampy stojącej (czerwona);lampie stojącej (czerwona);lampę stojącą (czerwona)
+lampa słoneczna;lampy słonecznej;lampie słonecznej;lampę słoneczną
+pochodnia;pochodni;pochodni;pochodnię
+zwierzęce legowisko;zwierzęcego legowiska;zwierzęcemu legowisku;zwierzęce legowisko
+pudełko dla zwierząt;pudełka dla zwierząt;pudełkowi dla zwierząt;pudełko dla zwierząt
+miejsce snu zwierząt;miejsca snu zwierząt;miejscu snu zwierząt;miejsce snu zwierząt
+łóżko;łóżka;łóżku;łóżko
+krzesło;krzesła;krzesłu;krzesło
+podwójne łóżko;podwójnego łóżka;podwójnemu łóżku;podwójne łóżko
+podwójne miejsce snu;podwójnego miejsca snu;podwójnemu miejscu snu;podwójne miejsce snu
+łóżko szpitalne;łóżka szpitalnego;łóżku szpitalnemu;łóżko szpitalne
+łóżko królewskie;łóżka królewskiego;łóżku królewskiemu;łóżko królewskie
+miejsce snu;miejsca snu;miejscu snu;miejsce snu
+
+// Buildings_Joy.xml
+stół bilardowy;stołu bilardowego;stołowi bilardowemu;stół bilardowy
+stolik szachowy;stolika szachowego;stolikowi szachowemu;stolik szachowy
+płaski telewizor;płaskiego telewizora;płaskiemu telewizorowi;płaski telewizor
+okrąg do gry w kamienie;okręgu do gry w kamienie;okręgowi do gry w kamienie;okrąg do gry w kamienie
+kołek na podkowy;kołka na podkowy;kołkowi na podkowy;kołek na podkowy
+telewizor mega-ekranowy;telewizora mega-ekranowego;telewizorowi mega-ekranowemu;telewizor mega-ekranowy
+stół do pokera;stołu do pokera;stołowi do pokera;stół do pokera
+teleskop;teleskopa;teleskopowi;teleskop
+telewizor kineskopowy;telewizora kineskopowego;telewizorowi kineskopowemu;telewizor kineskopowy
+plansza do gry z Ur;planszy do gry z Ur;planszy do gry z Ur;planszę do gry z Ur
+
+// Buildings_Misc.xml
+grób;grobu;grobowi;grób
+geoskaner;geoskanera;geoskanerowi;geoskaner
+dalekosiężny skaner minerałów;dalekosiężnego skanera minerałów;dalekosiężnemu skanerowi minerałów
+kobierzec ślubny;kobierca ślubnego;kobiercowi ślubnemu;kobierzec ślubny
+multianalizer;multianalizera;multianalizerowi;multianalizer
+nadajnik handlu orbitalnego;nadajnika handlu orbitalnego;nadajnikowi handlu orbitalnego;nadajnik handlu orbitalnego
+znacznik zagrody;znacznika zagrody;znaczkowi zagrody;znacznik zagrody
+sarkofag;sarkofagu;sarkofagowi;sarkofag
+wielki obelisk;wielkiego obelisku;wielkiemu obeliskowi;wielki obelisk
+duży obelisk;dużego obelisku;dużemu obeliskowi;duży obelisk
+monitor funkcji życiowych;monitora funkcji życiowych;monitorowi funkcji życiowych;monitor funkcji życiowych
+starożytna kapsuła hibernacyjna;starożytnej kapsuły hibernacyjnej;starożytnej kapsule hibernacyjnej;starożytną kapsułę hibernacyjną
+konsola łączności;konsoli łączności;konsoli łączności;konsolę łączności
+kapsuła hibernacyjna;kapsuły hibernacyjnej;kapsule hibernacyjnej;kapsułę hibernacyjną
+pompa wilgoci;pompy wilgoci;pompie wilgoci;pompę wilgoci
+wyrzutnia kapsuł;wyrzutni kapsuł;wyrzutni kapsuł;wyrzutnię kapsuł
+szafka z narzędziami;szafki z narzędziami;szafce z narzędziami;szafkę z narzędziami
+kapsuła transportowa;kapsuły transportowej;kapsule transportowej;kapsułę transportową
+miejsce wiązania karawany;miejsca wiązania karawany;miejscu wiązania karawany;miejsce wiązania karawany
+pudełko na jaja;pudełka na jaja;pudełku na jaja;pudełko na jaja
+urządzenie gaśnicze;urządzenia gaśniczego;urządzeniu gaśniczemu;urządzenie gaśnicze
+miejsce imprez;miejsca imprez;miejscu imprez;miejsce imprez
+
+// Buildings_MusicalInstruments.xml
+niedokończony instrument muzyczny;niedokończonego instrumentu muzycznego;niedokończonemu instrumentowi muzycznemu;niedokończony instrument muzyczny
+
+// Buildings_Natural.xml
+świecący kokon;świecącego kokona;świecącemu kokonowi;świecący kokon
+gejzer;gejzera;gejzerowi;gejzer
+sprasowana maszyneria;sprasowanej maszynerii;sprasowanej maszynerii;sprasowaną maszynerię
+ruda złota;rudy złota;rudzie złota;rudę złota
+ruda jadeitu;rudy jadeitu;rudzie jadeitu;rudę jadeitu
+sprasowana superstal;sprasowanej superstali;sprasowanej superstali;sprasowaną superstal
+ruda srebra;rudy srebra;rudzie srebra;rudę srebra
+sprasowana stal;sprasowanej stali;sprasowanej stali;sprasowaną stal
+ruda uranu;rudy uranu;rudzie uranu;rudę uranu
+ściana gruzu;ściany gruzy;ścianie gruzu;ścianę gruzu
+skalne zapadlisko;skalnego zapadliska;skalnemu zapadlisku;skalne zapadlisko
+gniazdo;gniazda;gniazdu;gniazdo
+
+// Buildings_Power.xml
+akumulator;akumulatora;akumulatorowi;akumulator
+generator na chem-paliwo;generatora na chem-paliwo;generatorowi na chem-paliwo;generator na chem-paliwo
+generator geotermalny;generatora geotermalnego;generatorowi geotermalnemu;generator geotermalny
+przewód elektryczny;przewodu elektrycznego;przewodowi elektrycznemu;przewód elektryczny
+przełącznik;przełącznika;przełącznikowi;przełącznik
+generator słoneczny;generatora słonecznego;generatorowi słonecznemu;generator słoneczny
+przewód wodoodporny;przewodu wodoodpornego;przewodowi wodoodpornemu;przewód wodoodporny
+generator na drewno;generatora na drewno;generatorowi na drewno;generator na drewno
+turbina wiatrowa;turbiny wiatrowej;turbinie wiatrowej;turbinę wiatrową
+koło wodne;koła wodnego;kołu wodnemu;koło wodne
+
+// Buildings_Production.xml
+elektryczny stół krawiecki;elektrycznego stołu krawieckiego;elektrycznemu stołowi krawieckiemu;elektryczny stół krawiecki
+stół produkcyjny;stołu produkcyjnego;stołowi produkcyjnemu;stół produkcyjny
+piec;pieca;piecu;piec
+ręczny stół krawiecki;ręcznego stołu krawieckiego;ręcznemu stołowi krawieckiemu;ręczny stół krawiecki
+zbiornik;zbiornika;zbiornikowi;zbiornik
+basen hydroponiczny;basenu hydroponicznego;basenowi hydroponicznemu;basen hydroponiczny
+dozownik pasty odżywczej;dozownika pasty odżywczej;dozownikowi pasty odżywczej;dozownik pasty odżywczej
+stół badawczy;stołu badawczego;stołowi badawczemu;stół badawczy
+stół rzeźniczy;stołu rzeźniczego;stołowi rzeźniczemu;stół rzeźniczy
+warsztat;warsztatu;warsztatowi;warsztat
+stół rzeźbiarski;stołu rzeźbiarskiego;stołowi rzeźbiarskiemu;stół rzeźbiarski
+stół kamieniarski;stołu kamieniarskiego;stołowi kamieniarskiemu;stół kamieniarski
+rafineria biopaliwa;rafinerii biopaliwa;rafinerii biopaliwa;rafinerię biopaliwa
+browarnia;browarni;browarni;browarnię
+wiertnica głębinowa;wiertnicy głębinowej;wiertnicy głębinowej;wiertnicę głębinową
+huta elektryczna;huty elektrycznej;hucie elektrycznej;hutę elektryczną
+kuźnia elektryczna;kuźni elektrycznej;kuźni elektrycznej;kuźnię elektryczną
+kuchenka elektryczna;kuchenki elektrycznej;kuchence elektrycznej;kuchenkę elektryczną
+beczka fermentacyjna;beczki fermentacyjnej;beczce fermentacyjnej;beczkę fermentacyjną
+kuźnia;kuźni;kuźni;kuźnię
+miejsce rzeźnicze;miejsca rzeźniczego;miejscu rzeźniczemu;miejsce rzeźnicze
+miejsce rzemieślnicze;miejsca rzemieślniczego;miejscu rzemieślniczemu;miejsce rzemieślnicze
+laboratorium medyczne;laboratorium medycznego;laboratorium medycznemu;laboratorium medyczne
+krematorium elektryczne;krematorium elektrycznego;krematorium elektrycznemu;krematorium elektryczne
+laboratorium badawcze;laboratorium badawczego;laboratorium badawczemu;laboratorium badawcze
+
+// Buildings_Security.xml
+barykada;barykady;barykadzie;barykadę
+pułapkowa głowica antymaterii IED;pułapkowej głowicy antymaterii IED;pułapkowej głowicy antymaterii IED;pułapkową głowicę antymaterii IED
+pułapka IED EMP;pułapki IED EMP;pułapce IED EMP;pułapkę IED EMP
+pułapka przeciwpożarowa IED;pułapki przeciwpożarowej IED;pułapce przeciwpożarowej IED;pułapkę przeciwpożarową IED
+pułapka IED;pułapki IED;pułapce IED;pułapkę IED
+pułapka zapalająca IED;pułapki zapalającej IED;pułapce zapalającej IED;pułapkę zapalającą IED
+pułapka dymna IED;pułapki dymnej IED;pułapce dymnej IED;pułapkę dymną IED
+kolczasta pułapka;kolczastej pułapki;kolczastej pułapce;kolczastą pułapkę
+worki z piaskiem;worków z piaskiem;workom z piaskiem;worek z piaskiem
+
+// Buildings_Security_Turrets.xml
+moździerz;moździerza;moździerzowi;moździerz
+pocisk działa automatycznego;pocisku działa automatycznego;pociskowi działa automatycznego;pocisk działa automatycznego
+pocisk mini-wieżyczki;pocisku mini-wieżyczki;pociskowi mini-wieżyczki;pocisk mini-wieżyczki
+pocisk uranowy;pocisku uranowego;pociskowi uranowemu;pocisk uranowy
+automatyczna wieżyczka;automatycznej wieżyczki;automatycznej wieżyczce;automatyczną wieżyczkę
+mini-wieżyczka;mini-wieżyczki;mini-wieżyczce;mini-wieżyczkę
+wieżyczka uranowa;wieżyczki uranowej;wieżyczce uranowej;wieżyczkę uranową
+działo automatyczne;działa automatycznego;działu automatycznemu;działo automatyczne
+działko mini-wieżyczki;działka mini-wieżyczki;działku mini-wieżyczki;działko mini-wieżyczki
+działo uranowe;działa uranowego;działu uranowemu;działo uranowe
+
+// Buildings_Ship.xml
+rdzeń komputerowy statku;rdzenia komputerowego statku;rdzeniowi komputerowemu statku;rdzeń komputerowy statku
+silnik statku;silnika statku;silnikowi statku;silnik statku
+reaktor statku;reaktora statku;reaktorowi statku;reaktor statku
+moduł czujników;modułu czujnika;modułowi czujnika;moduł czujnika
+belka strukturalna statku;belki strukturalnej statku;belce strukturalnej statku;belkę strukturalną statku
+kapsuła hibernacyjna statku;kapsuły hibernacyjnej statku;kapsule hibernacyjnej statku;kapsułę hibernacyjną statku
+
+// Buildings_Special.xml
+wanometryczny chem-reaktor;wanometrycznego chem-reaktora;wanometrycznemu chem-reaktorze;wanometryczny chem-reaktor
+emanator PSI;emanatora PSI;emanatorowi PSI;emanatora PSI
+wanometryczne ogniwo zasilające;wanometrycznego ogniwa zasilającego;wanometryczne ogniwo zasilające
+
+// Buildings_Structure.xml
+klapa dla zwierząt;klapy dla zwierząt;klapie dla zwierząt;klapę dla zwierząt
+kolumna;kolumny;kolumnie;kolumnę
+brama ogrodzenia;bramy ogrodzenia;bramie ogrodzenia;bramę ogrodzenia
+ściana;ściany;ścianie;ścianę
+ogrodzenie;ogrodzenia;ogrodzeniu;ogrodzenie
+drzwi automatyczne;drzwi automatycznych;drzwiom automatycznym;drzwi automatyczne
+drzwi;drzwi;drzwiom;drzwi
+
+// Buildings_Temperature.xml
+klimatyzator;klimatyzatora;klimatyzatorowi;klimatyzator
+grzejnik;grzejnika;grzejnikowi;grzejnik
+ewaporator;ewaporatora;ewaporatorowi;ewaporator
+kratka wentylacyjna;kratki wentylacyjnej;kratce wentylacyjnej;kratkę wentylacyjną
+ognisko;ogniska;ognisku;ognisko
+
+// Filth_Various.xml
+płyn owodniowy;płynu owodniowego;płynowi owodniowemu;płyn owodniowy
+zwierzęcy brud;zwierzęcego brudu;zwierzęcemu brudu;zwierzęcy brud
+popiół;popiołu;popiołowi;popiół
+płyn ustrojowy;płynu ustrojowego;płynowi ustrojowemu;płyn ustrojowy
+brud;brudu;brudowi;brud
+gruz budowlany;gruzu budowlanego;gruzowi budowlanemu;gruz budowlany
+gruz skalny;gruzu skalnego;gruzowi skalnemu;gruz skalny
+piasek;piasku;piaskowi;piasek
+szlam;szlamu;szlamowi;szlam
+rozrzucony żużel;rozrzuconego żużlu;rozrzuconemu żużlu;rozrzucony żużel
+krew;krwi;krwi;krew
+wydzielina;wydzieliny;wydzielinie;wydzielinę
+piana gaśnicza;piany gaśniczej;pianie gaśniczej;pianę gaśniczą
+kałuża chem-paliwa;kałuży chem-paliwa;kałuży chem-paliwa;kałużę chem-paliwa
+kałuża wody;kałuży wody;kałuży wody;kałużę wody
+włosy;włosów;włosom;włosy
+odłamki maszyn;odłamków maszyn;odłamkom maszyn;odłamki maszyn
+śmieci;śmieci;śmieciom;śmieci
+wymiociny;wymiocin;wymiocinom;wymiociny
+rozrzucone worki z piaskiem;rozrzuconych worków z piaskiem;rozrzuconym workom z piaskiem;rozrzucone worki z piaskiem
+
+// Gas_Various.xml
+dym;dymu;dymowi;dym
+
+// GoJuice.xml
+sok-go;soku-go;soku-go;sok-go
+
+// Hediffs_BodyParts_Archotech.xml
+archotyczna noga;archotycznej nogi;archotycznej nodze;archotyczną nogę
+archotyczne ramię;archotycznego ramienia;archotycznemu ramieniu;archotyczne ramię
+archotyczne oko;archotycznego oka;archotycznemu oku;archotyczne oko
+
+// Hediffs_BodyParts_Bionic.xml
+bioniczny kręgosłup;bionicznego kręgosłupa;bionicznemu kręgosłupowi;bioniczny kręgosłup
+bioniczny żołądek;bionicznego żołądka;bionicznemu żołądkowi;bioniczny żołądek
+bioniczny język;bionicznego języka;bionicznemu językowi;bioniczny język
+dezintegrator zwłok;dezintegratora zwłok;dezintegratorowi zwłok
+bioniczna noga;bionicznej nogi;bionicznej nodze;bioniczną nogę
+bioniczne ramię;bionicznego ramienia;bionicznemu ramieniu;bioniczne ramię
+bioniczne ucho;bionicznego ucha;bionicznemu uchu;bioniczne ucho
+bioniczne oko;bionicznego oka;bionicznemu oku;bioniczne oko
+bioniczne serce;bionicznego serca;bionicznemu sercu;bioniczne serce
+
+// Hediffs_BodyParts_Natural.xml
+nerka;nerki;nerce;nerkę
+wątroba;wątroby;wątrobie;wątrobę
+serce;serca;sercu;serce
+płuco;płuca;płucu;płuco
+
+// Hediffs_BodyParts_Prosthetic.xml
+implant ślimaka;implantu ślimaka;implantowi ślimaka;implant ślimaka
+implant szczęścia;implantu szczęścia;implantowi szczęścia;implant szczęścia
+implant antybólowy;implantu antybólowego;implantowi antybólowemu;implant antybólowy
+pazur energetyczny;pazura energetycznego;pazurowi energetycznemu;pazur energetyczny
+proteza ramienia;protezy ramienia;protezie ramienia;protezę ramienia
+proteza serca;protezy serca;protezie serca;protezę serca
+proteza nogi;protezy nogi;protezie nogi;protezę nogi
+
+// Items_Artifacts.xml
+zwierzęcy pulser PSI;zwierzęcego pulsera PSI;zwierzęcemu pulserowi PSI;zwierzęcy pulser PSI
+łagodzący pulser PSI;łagodzącego pulsera PSI;łagodzącemu pulserowi PSI;łagodzący pulser PSI
+
+// Items_Exotic.xml
+rdzeń osobowości;rdzenia osobowości;rdzeniowi osobowości;rdzeń osobowości
+kieł słonia;kła słonia;kłowi słonia;kieł słonia
+technologiczny rdzeń osobowości;technologicznego rdzenia osobowości;technologicznemu rdzeniu osobowości;technologiczny rdzeń osobowości
+róg Thrumbo;rogu Thrumbo;rogowi Thrumbo;róg Thrumbo
+serum leczące;serum leczącego;serum leczącemu;serum leczące
+serum wskrzeszające;serum wskrzeszającego;serum wskrzeszającemu;serum wskrzeszające
+
+// Items_Food.xml
+dobry posiłek;dobrego posiłku;dobremu posiłkowi;dobry posiłek
+dobry mięsny posiłek;dobrego mięsnego posiłku;dobremu mięsnemu posiłkowi;dobry mięsny posiłek
+dobry wegetariański posiłek;dobrego wegetariańskiego posiłku;dobremu wegetariańskiemu posiłkowi
+obfity posiłek;obfitego posiłku;obfitemu posiłkowi;obfity posiłek
+obfity mięsny posiłek;obfitego mięsnego posiłku;obfitemu mięsnemu posiłkowi;obfity mięsny posiłek
+obfity wegetariański posiłek;obfitego wegetariańskiego posiłku;obfitemu wegetariańskiemu posiłkowi;obfity wegetariański posiłek
+prosty posiłek;prostego posiłku;prostemu posiłkowi;prosty posiłek
+spakowany posiłek surwiwalowy;spakowanego posiłku surwiwalowego;spakowanemu posiłku surwiwalowemu;spakowany posiłek surwiwalowy
+pemikan;pemikanu;pemikanowi;pemikan
+karma dla zwierząt;karmy dla zwierząt;karmie dla zwierząt;karmę dla zwierząt
+pasta odżywcza;pasty odżywczej;paście odżywczej;pastę odżywczą
+
+// Items_Luxury.xml
+czekolada;czekolady;czekoladzie;czekoladę
+
+// Items_Resource_AnimalProduct.xml
+owadzia galaretka;owadziej galaretki;owadziej galaretce;owadzią galaretkę
+jajo kazuara (zapłod.);jaja kazuara (zapłod.);jaju kazuara (zapłod.);jajo kazuara (zapłod.)
+kurze jajo (zapłod.);kurzego jaja (zapłod.);kurzemu jaju (zapłod.);kurze jajo (zapłod.)
+kurze jajo (niezapłod.);kurzego jaja (niezapłod.);kurzemu jaju (niezapłod.);kurze jajo (niezapłod.)
+jajo kobry (zapłod.);jaja kobry (zapłod.);jaju kobry (zapłod.);jajo kobry (zapłod.)
+kacze jajo (zapłod.);kaczego jaja (zapłod.);kaczemu jaju (zapłod.);kacze jajo (zapłod.)
+kacze jajo (niezapłod.);kaczego jaja (niezapłod.);kaczemu jaju (niezapłod.);kacze jajo (niezapłod.)
+jajo emu (zapłod.);jaja emu (zapłod.);jaju emu (zapłod.);jajo emu (zapłod.)
+gęsie jajo (zapłod.);gęsiego jaja (zapłod.);gęsiemu jaju (zapłod.);gęsie jajo (zapłod.)
+gęsie jajo (niezapłod.);gęsiego jaja (niezapłod.);gęsiemu jaju (niezapłod.);gęsie jajo (niezapłod.)
+jajo iguany (zapłod.);jaja iguany (zapłod.);jaju iguany (zapłod.);jajo iguany (zapłod.)
+strusie jajo (zapłod.);strusiego jaja (zapłod.);strusiemu jaju (zapłod.);strusie jajo (zapłod.)
+żółwie jajo (zapłod.);żółwiego jaja (zapłod.);żółwiemu jaju (zapłod.);żółwie jajo (zapłod.)
+indycze jajo (zapłod.);indyczego jaja (zapłod.);indyczemu jaju (zapłod.);indycze jajo (zapłod.)
+mleko;mleka;mleku;mleko
+
+// Items_Resource_Manufactured.xml
+komponent;komponentu;komponentowi;komponent
+zaawansowany komponent;zaawansowanego komponentu;zaawansowanemu komponentowi;zaawansowany komponent
+ziołowy zestaw medyczny;ziołowego zestawu medycznego;ziołowemu zestawu medycznemu;ziołowy zestaw medyczny
+zestaw medyczny;zestawu medycznego;zestawu medycznemu;zestaw medyczny
+zestaw medyczny z glitterworld;zestawu medycznego z glitterworld;zestawu medycznemu z glitterworld;zestaw medyczny z glitterworld
+neutroamina;neutroaminy;neutroaminie;neutroaminę
+wzmocniona lufa;wzmocnionej lufy;wzmocnionej lufie;wzmocnioną lufę
+chem-paliwo;chem-paliwa;chem-paliwu;chem-paliwo
+
+// Items_Resource_RawPlant.xml
+owoc agawy;owocu agawy;owocowi agawy;owoc agawy
+surowy grzyb;surowego grzyba;surowemu grzybowi;surowy grzyb
+chmiel;chmielu;chmielowi;chmiel
+ryż;ryżu;ryżowi;ryż
+kukurydza;kukurydzy;kukurydzy;kukurydzę
+siano;siana;sianu;siano
+psychodeliczne liście;psychodelicznych liści;psychodelicznym liściom;psychodeliczne liście
+jeżyny;jeżyn;jeżynom;jeżyny
+ziemniaki;ziemniaków;ziemniakom;ziemniaki
+liście zioła;liści zioła;liściom zioła;liść zioła
+
+// Items_Resource_Shell.xml
+pocisk EMP;pocisku EMP;pociskowi EMP;pocisk EMP
+pocisk pianki gaśniczej;pocisku pianki gaśniczej;pociskowi pianki gaśniczej;pocisk pianki gaśniczej
+pocisk silnie wybuchowy;pocisku silnie wybuchowego;pociskowi silnie wybuchowemu;pocisk silnie wybuchowy
+pocisk zapalający;pocisku zapalającego;pociskowi zapalającemu;pocisk zapalający
+pocisk dymny;pocisku dymnego;pociskowi dymnemu;pocisk dymny
+głowica antymaterii;głowicy antymaterii;głowicy antymaterii;głowicę antymaterii
+
+// Items_Resource_Stuff.xml
+hipersplot;hipersplotu;hipersplotowi;hipersplot
+jadeit;jadeitu;jadeitowi;jadeit
+uran;uranu;uranowi;uran
+tkanina;tkaniny;tkaninie;tkaninę
+superstal;superstali;superstali;superstal
+stal;stali;stali;stal
+kłoda;kłody;kłodzie;kłodę
+wełna alpaki;wełny alpaki;wełnie alpaki;wełnę alpaki
+wełna bizona;wełny bizona;wełnie bizona;wełnę bizona
+wełna megaleniwca;wełny megaleniwca;wełnie megaleniwca;wełnę megaleniwca
+wełna muffalo;wełny muffalo;wełnie muffalo;wełnę muffalo
+wełna owcy;wełny owcy;wełnie owcy;wełnę owcy
+włókno z włosaka diabelskiego;włokna z włosaka diabelskiego;włóknu włosaka diabelskiego;włosaka diabelskiego
+złoto;złota;złotu;złoto
+srebro;srebra;srebru;srebro
+włókno syntetyczne;włókna syntetycznego;włóknu syntetycznemu;włókno syntetyczne
+drewno;drewna;drewnu;drewno
+
+// Items_Resource_Stuff_Leather.xml
+niedźwiedzia skóra;niedźwiedziej skóry;niedźwiedziej skórze;niedźwiedzią skórę
+ptasia skóra;ptasiej skóry;ptasiej skórze;ptasią skórę
+wielbłądzia skóra;wielbłądziej skóry;wielbłądziej skórze;wielbłądzią skórę
+psia skóra;psiej skóry;psiej skórze;psią skórę
+skóra ze słonia;skóry ze słonia;skórze ze słonia;skórę ze słonia
+ludzka skóra;ludzkiej skóry;ludzkiej skórze;ludzką skórę
+lekka skóra;lekkiej skóry;lekkiej skórze;lekką skórę
+skóra z jaszczurki;skóry z jaszczurki;skórze z jaszczurki;skórę z jaszczurki
+skóra łatana;skóry łatanej;skórze łatanej;skórę łataną
+świńska skóra;świńskiej skóry;świńskiej skórze;świńską skórę
+zwykła skóra;zwykłej skóry;zwykłej skórze;zwykłą skórę
+skóra z nosorożca;skóry z nosorożca;skórze z nosorożca;skórę z nosorożca
+wilcza skóra;wilczej skóry;wilczej skórze;wilczą skórę
+niebieskawe futro;niebieskawego futra;niebieskawemu futru;niebieskawe futro
+futro z szynszyla;futra szynszyla;futru szynszyla;futro szynszyla
+lisie futro;lisiego futra;lisiemu futru;lisie futro
+futro ze świnki morskiej;futra ze świnki morskiej;futru ze świnki morskiej;futro ze świnki morskiej
+ciężkie futro;ciężkiego futra;ciężkiemu futru;ciężkie futro
+futro z pantery;futra z pantery;futru z pantery;futro z pantery
+futro z Thrumbo;futra z Thrumbo;futru z Thrumbo;futro z Thrumbo
+
+// Items_Unfinished.xml
+spakowany obiekt;spakowanego obiektu;spakowanemu obiektowi;spakowany obiekt
+niedokończony strój;niedokończonego stroju;niedokończonemu strojowi;niedokończony strój
+niedokończony pas;niedokończonego pasa;niedokończonemu pasowi;niedokończony pas
+niedokończony komponent;niedokończonego komponentu;niedokończonemu komponentowi;niedokończony komponent
+niedokończony pistolet;niedokończonego pistoletu;niedokończonemu pistoletowi;niedokończony pistolet
+niedokończony pakiet;niedokończonego pakietu;niedokończonemu pakietowi;niedokończony pakiet
+niedokończona prosta zbroja;niedokończonej prostej zbroi;niedokończonej prostej zbroi;niedokończoną prostą zbroję
+niedokończona bionika;niedokończonej bioniki;niedokończonej bionice;niedokończoną bionikę
+niedokończona proteza;niedokończonej protezy;niedokończonej protezie;niedokończoną protezę
+niedokończona metalowa zbroja;niedokończonej metalowej zbroi;niedokończonej metalowej zbroi;niedokończoną metalową zbroję
+niedokończona rzeźba;niedokończonej rzeźby;niedokończonej rzeźbie;niedokończoną rzeźbę
+niedokończona zaawansowana zbroja;niedokończonej zaawansowanej zbroi;niedokończonej zaawansowanej zbroi;niedokończoną zaawansowaną zbroję
+niedokończona broń;niedokończonej broni;niedokończonej broni;niedokończoną broń
+zminimalizowane drzewo;zminimalizowanego drzewa;zminimalizowanemu drzewu;zminimalizowane drzewo
+
+// Luciferium.xml
+lucyferium;lucyferium;lucyferium;lucyferium
+
+// MeleeMedieval.xml
+gladius;gladiusa;gladiusowi;gladius
+miecz dwuręczny;miecza dwuręcznego;mieczu dwuręcznemu;miecz dwuręczny
+buława;buławy;buławie;buławę
+
+// MeleeNeolithic.xml
+nóż;noża;nożowi;nóż
+maczuga;maczugi;maczudze;maczugę
+ikwa;ikwy;ikwie;ikwę
+włócznia;włóczni;włóczni;włócznię
+
+// Penoxycyline.xml
+penoksycylina;penoksycyliny;penoksycylinie;penoksycylinę
+
+// Plants_Cave.xml
+stołek świetlisty;stołka świetlistego;stołkowi świetlistemu;stołek świetlisty
+aksamitówka meduzowata;aksamitówki meduzowatej;aksamitówce meduzowatej;aksamitówkę meduzowatą
+mechówka niebieska;mechówki niebieskiej;mechówce niebieskiej;mechówkę niebieską
+
+// Plants_Cultivated_Decorative.xml
+liliowiec;liliowca;liliowcowi;liliowca
+róża;róży;róży;różę
+
+// Plants_Cultivated_Farm.xml
+krzew bawełny;krzewu bawełny;krzewowi bawełny;krzew bawełny
+włosak diabelski;włosaka diabelskiego;włosakowi diabelskiemu;włosaka diabelskiego
+korzeń leczniczy;korzenia leczniczego;korzeniowi leczniczemu;korzeń leczniczy
+krzew chmielu;krzewu chmielu;krzewowi chmielu;krzew chmielu
+krzew truskawek;krzewu truskawek;krzewowi truskawek;krzew truskawek
+sadzonka kukurydzy;sadzonki kukurydzy;sadzonce kukurydzy;sadzonkę kukurydzy
+sadzonka ziemniaka;sadzonki ziemniaka;sadzonce ziemniaka;sadzonkę ziemniaka
+sadzonka psychoidu;sadzonki psychoidu;sadzonce psychoidu;sadzonkę psychoidu
+sadzonka ryżu;sadzonki ryżu;sadzonce ryżu;sadzonkę ryżu
+sadzonka zioła;sadzonki zioła;sadzonce zioła;sadzonkę zioła
+drzewo kakaowca;drzewa kakaowca;drzewu kakaowca;drzewo kakaowca
+
+// Plants_Special.xml
+krzew ambrozji;krzewu ambrozji;krzewowi ambrozji;krzew ambrozji 
+spalone drzewo;spalonego drzewa;spalonemu drzewu;spalone drzewo
+
+// Plants_Wild_Arid.xml
+kaktus karłowaty;kaktusa karłowatego;kaktusowi karłowatemu;kaktusa karłowatego
+agawa;agawy;agawie;agawę
+karnegia olbrzymia;karnegii olbrzymiej;karnegii olbrzymiej;karnegię olbrzymią
+dracena smocza;draceny smoczej;dracenie smoczej;dracenę smoczą
+
+// Plants_Wild_General.xml
+krzak;krzaka;krzakowi;krzak
+dziki korzeń leczniczy;dzikiego korzenia leczniczego;dzikiemu korzeniowi leczniczemu;dziki korzeń leczniczy
+trawa;trawy;trawie;trawę
+wysoka trawa;wysokiej trawy;wysokiej trawie;wysoką trawę
+ciernie;cierni;cierniom;ciernie
+
+// Plants_Wild_Swamp.xml
+cyprys;cyprysa;cyprysowi;cyprysa
+klon;klonu;klonowi;klon
+winorośl;winorośli;winorośli;winorośl
+wierzba;wierzby;wierzbie;wierzbę
+
+// Plants_Wild_Temperate.xml
+traganek;traganka;tragankowi;traganek
+krzew jagód;krzewu jagód;krzewowi jagód;krzew jagód
+mlecz;mlecza;mleczowi;mlecza
+mech;mchu;mchowi;mech
+dąb;dębu;dębowi;dąb
+brzoza;brzozy;brzozie;brzozę
+sosna;sosny;sośnie;sosnę
+topola;topoli;topoli;topolę
+
+// Plants_Wild_Tropical.xml
+alokazja;alokazji;alokazji;alokazję
+kliwia;kliwii;kliwii;kliwię
+bukietnica olbrzymia;bukietnicy olbrzymiej;bukietnicy olbrzymiej;bukietnice olbrzymią
+cekropia;cekropii;cekropii;cekropię
+teczyna;teczyny;teczynie;teczynę
+drzewo bambusowe;drzewa bambusowego;drzewu bambusowemu;drzewo bambusowe
+drzewo palmowe;drzewa palmowego;drzewu palmowemu;drzewo palmowe
+niskie krzewy;niskich krzewów;niskim krzewom;niskie krzewy
+
+// Psychite_Flake.xml
+płatki psychitu;płatków psychitu;płatkom psychitu;płatki psychitu
+
+// Psychite_Tea.xml
+herbata psychitowa;herbaty psychitowej;herbacie psychitowej;herbatę psychitową
+
+// Psychite_Yayo.xml
+yayo;yayo;yayo;yayo
+
+// Races_Animal_Bears.xml
+niedźwiedź grizli;niedźwiedzia grizli;niedźwiedziowi grizli;niedźwiedzia grizli
+niedźwiedź polarny;niedźwiedzia polarnego;niedźwiedziowi polarnemu;niedźwiedzia polarnego
+
+// Races_Animal_BigBirds.xml
+kazuar;kazuara;kazuarowi;kazuara
+struś;strusia;strusiowi;strusia
+emu;emu;emu;emu
+
+// Races_Animal_BigCats.xml
+ryś;rysia;rysiowi;rysia
+puma;pumy;pumie;pumę
+pantera;pantery;panterze;panterę
+
+// Races_Animal_CatGroup.xml
+kot;kota;kotu;kota
+husky;husky;husky;husky
+labrador;labradora;labradorowi;labradora
+york;yorka;yorkowi;yorka
+świnka morska;świnki morskiej;śwince morskiej;świnkę morską
+małpa;małpy;małpie;małpę
+
+// Races_Animal_ChickenGroup.xml
+indyk;indyka;indykowi;indyka
+kura;kury;kurze;kurę
+kaczka;kaczki;kaczce;kaczkę
+gęś;gęsi;gęsi;gęś
+
+// Races_Animal_CowGroup.xml
+bizon;bizona;bizonowi;bizona
+renifer;renifera;reniferowi;renifera
+osioł;osła;osłu;osła
+dromader;dromadera;dromaderowi;dromadera
+słoń;słonia;słoniowi;słonia
+łoś;łosia;łosiowi;łosia
+koń;konia;koniowi;konia
+nosorożec;nosorożca;nosorożcowi;nosorożca
+jak;jaka;jakowi;jaka
+bumalopa;bumalopy;bumalopie;bumalopę
+krowa;krowy;krowie;krowę
+koza;kozy;kozie;kozę
+muffalo;mufallo;mufallo;mufallo
+
+// Races_Animal_Hares.xml
+zając;zająca;zającowi;zająca
+zając śnieżny;zająca śnieżnego; zającowi śnieżnemu; zająca śnieżnego
+
+// Races_Animal_Insect.xml
+megaskarabeusz;megaskarabeusza;megaskarabeuszowi;megaskarabeusza
+megapająk;megapająka;megapająkowi;megapająka
+spelopeda;spelopedy;spelopedzie;spelopedę
+
+// Races_Animal_MiscGroup.xml
+alfabóbr;alfabobra;alfabobrowi;alfabobra
+żółw;żółwia;żółwiowi;żółwia
+kobra;kobry;kobrze;kobrę
+thrumbo;Thrumbo;Thrumbo;Thurmbo
+
+// Races_Animal_PigGroup.xml
+jeleń;jelenia;jeleniowi;jelenia
+koziorożec;koziorożca;koziorożcowi;koziorożca
+dzik;dzika;dzikowi;dzika
+szynszyla;szynszyli;szynszyli;szynszylę
+gazela;gazeli;gazeli;gazelę
+świnia;świni;świni;świnię
+
+// Races_Animal_SheepGroup.xml
+megaleniwiec;megaleniwca;megaleniwcowi;megaleniwca
+alpaka;alpaki;alpace;alpakę
+kapibara;kapibary;kapibarze;kapibarę
+owca;owcy;owcy;owcę
+
+// Races_Animal_SquirrelGroup.xml
+wybuchowy szczur;wybuchowego szczura;wybuchowemu szczurowi;wybuchowego szczura
+szop;szopa;szopowi;szopa
+szczur;szczura;szczurowi;szczura
+iguana;iguany;iguanie;iguanę
+wiewiórka;wiewiórki;wiewiórce;wiewiórkę
+
+// Races_Animal_WargGroup.xml
+warg;warga;wargowi;warga
+
+// Races_Animal_WildCanines.xml
+lis polarny;lisa polarnego;lisowi polarnemu;lisa polarnego
+fenek;fenka;fenkowi;fenka
+lis;lisa;lisowi;lisa
+wilk polarny;wilka polarnego;wilkowi polarnemu;wilka polarnego
+wilk;wilka;wilkowi;wilka
+
+// Races_Humanlike.xml
+człowiek;człowieka;człowiekowi;człowieka
+
+// Races_Mechanoid.xml
+wij;wija;wijowi;wija
+włóczniarz;włóczniarza;włóczniarzowi;włóczniarza
+pikinier;pikiniera;pikinierowi;pikiniera
+kosiarz;kosiarza;kosiarzowi;kosiarza
+termit;termita;termitowi;termita
+
+// RangedIndustrial.xml
+pocisk karabinu szturmowego;pocisku karabinu szturmowego;pociskowi karabinu szturmowego;pocisk karabinu szturmowego
+pocisk autom. pistoletu;pocisku autom. pistoletu;pociskowi autom. pistoletu;pocisk autom. pistoletu
+pocisk sztucera;pocisku sztucera;pociskowi sztucera;pocisk sztucera
+pocisk wyrzutni EMP;pocisku wyrzutni EMP;pociskowi wyrzutni EMP;pocisk wyrzutni EMP
+pocisk ciężkiego PMu;pocisku ciężkiego PMu;pociskowi ciężkiemu PMu;pocisk ciężkiemu PMu
+pocisk LKM;pocisku LKMu;pociskowi LKMu;pocisk LKM
+pocisk pistoletu maszynowego;pocisku pistoletu maszynowego;pociskowi pistoletu maszynowego;pocisk pistoletu maszynowego
+pocisk miniguna;pocisku miniguna;pociskowi miniguna;pocisk miniguna
+pocisk rewolweru;pocisku rewolweru;pociskowi rewolweru;pocisk rewolweru
+śrut strzelby;śruta strzelby;śrutowi strzelby;śrut strzelby
+pocisk wyrzutni dymnej;pocisku wyrzutni dymnej;pociskowi wyrzutni dymnej;pocisk wyrzutni dymnej
+pocisk snajperski;pocisku snajperskiego;pociskowi snajperskiemu;pocisk snajperski
+karabin szturmowy;karabinu szturmowego;karabinowi szturmowemu;karabin szturmowy
+pistolet automatyczny;pistoletu automatycznego;pistoletowi automatycznemu;pistolet automatyczny
+sztucer;sztucera;sztucerowi;sztucer
+strzelba łańcuchowa;strzelby łańcuchowej;strzelbie łańcuchowej;strzelba łańcuchowa
+wyrzutnia EMP;wyrzutni EMP;wyrzutni EMP;wyrzutnię EMP
+ciężki PM;ciężkiego PMu;ciężkiemu PMu;ciężki PM
+wyrzutnia zapalająca;wyrzutni zapalającej;wyrzutni zapalającej;wyrzutnię zapalającą
+LKM;LKMu;LKMu;LKM
+pistolet maszynowy;pistoletu maszynowego;pistoletu maszynowemu;pistolet maszynowy
+minigun;miniguna;minigunowi;minigun
+strzelba powtarzalna;strzelby; powtarzalnej;strzelbie powtarzalnej;strzelbę łańcuchową
+rewolwer;rewolweru;rewolwerowi;rewolwer
+wyrzutnia dymna;wyrzutni dymnej;wyrzutni dymnej;wyrzutnię dymną
+karabin snajperski;karabinu snajperskiego;karabinowi snajperskiemu;karabin snajperski
+
+// RangedIndustrialConsumable.xml
+rakieta kataklizmu;rakiety kataklizmu;rakiecie kataklizmu;rakietę kataklizmu
+rakieta;rakiety;rakiecie;rakietę
+wyrzutnia rakiet kataklizmu;wyrzutni rakiet kataklizmu;wyrzutni rakiet kataklizmu;wyrzutnię rakiet kataklizmu
+wyrzutnia trój-rakietowa;wyrzutni trój-rakietowej;wyrzutni trój-rakietowej;wyrzutnię trój-rakietową
+
+// RangedIndustrialGrenades.xml
+granat EMP;granatu EMP;granatowi EMP;granat EMP
+granat odłamkowy;granatu odłamkowego;granatowi odłamkowemu;granat odłamkowy
+koktajl Mołotowa;koktajlu Mołotowa;koktajlowi Mołotowa;koktajl Mołotowa
+granaty EMP;granatów EMP;granatom EMP;granaty EMP
+granaty odłamkowe;granatów odłamkowych;granatom odłamkowym;granaty odłamkowe
+koktajle Mołotowa;koktajli Mołotowa;koktajlom Mołotowa;koktajle Mołotowa
+
+// RangedMechanoid.xml
+ciężki pocisk pulsacyjny;ciężkiego pocisku pulsacyjnego;ciężkiemu pociskowi pulsacyjnemu;ciężki pocisk pulsacyjny
+pocisk inferno;pocisku inferno;pociskowi inferno;pocisk inferno
+pocisk iglarki;pocisku iglarki;pociskowi iglarki;pocisk iglarki
+ciężki blaster pulsacyjny;ciężkiego blastera pulsacyjnego;ciężkiemu blasterowi pulsacyjnemu;ciężki blaster pulsacyjny
+iglarka;iglarki;iglarce;iglarkę
+działo inferno;działa inferno;działu inferno;działo inferno
+
+// RangedNeolithic.xml
+długi łuk;długiego łuku;długiemu łukowi;długi łuk
+łuk refleksyjny;łuku refleksyjnego;łukowi refleksyjnemu;łuk refleksyjny
+krótki łuk;krótkiego łuku;krótkiemu łuku;krótki łuk
+oszczep;oszczepu;oszczepowi;oszczep
+ciężka strzała;ciężkiej strzały;ciężkiej strzale;ciężką strzałę
+strzała refleksyjna;strzały refleksyjnej;strzale refleksyjnej;strzałę refleksyjną
+krótka strzała;krótkiej strzały;krótkiej strzale;krótką strzałę
+oszczepy;oszczepów;oszczepom;oszczepy
+
+// RangedSpacer.xml
+pocisk lancy pulsacyjnej;pocisku lancy pulsacyjnej;pociskowi lancy pulsacyjnej;pocisk lancy pulsacyjnej
+pocisk karabinu pulsacyjnego;pocisku karabinu pulsacyjnego;pociskowi karabinu pulsacyjnego;pocisk karabinu pulsacyjnego
+karabin pulsacyjny;karabinu pulsacyjnego;karabinowi pulsacyjnemu;karabin pulsacyjny
+lanca pulsacyjna;lancy pulsacyjnej;lancy pulsacyjnej;lancę pulsacyjną
+
+// RangedSpecial.xml
+oznacznik bombardowania orbitalnego;oznacznika bombardowania orbitalnego;oznacznikowi bombardowania orbitalnego;oznacznik bombardowania orbitalnego
+oznacznik orbitalnego działa inferno;oznacznika orbitalnego działa inferno;oznacznikowi orbitalnego działa inferno;oznacznik orbitalnego działa inferno
+generator tornada;generatora tornada;generatorowi tornada;generator tornada
+
+// Smokeleaf.xml
+joint;jonta;jointu;jointa
+
+// Things_Special.xml
+ogień;ognia;ogniu;ognień
+kapsuła ratunkowa;kapsuły ratunkowej;kapsule ratunkowej;kapsułę ratunkową
+iskra;iskry;iskrze;iskrę
+
+// Various_Stone.xml
+odłamek granitu;odłamka granitu;odłamkowi granitu;odłamek granitu
+odłamek wapienia;odłamka wapienia;odłamkowi wapienia;odłamek wapienia
+odłamek marmuru;odłamka marmuru;odłamkowi marmuru;odłamek marmuru
+odłamek piaskowca;odłamka piaskowca;odłamkowi piaskowca;odłamek piaskowca
+odłamek metalu;odłamka metalu;odłamkowi metalu;odłamek metalu
+odłamek łupku;odłamka łupku;odłamkowi łupku;odłamek łupku
+granit;granitu;granitowi;granit
+wapień;wapienia;wapieniowi;wapień
+marmur;marmuru;marmurowi;marmur
+piaskowiec;piaskowca;piaskowcowi;piaskowiec
+łupek;łupku;łupkowi;łupek
+wygładzony granit;wygładzonego granitu;wygładzonemu granitowi;wygładzony granit
+wygładzony wapień;wygładzonego wapienia;wygładzonemu wapniowi;wygładzony wapień
+wygładzony marmur;wygładzonego marmuru;wygładzonemu marmurowi;wygładzony marmur
+wygładzony piaskowiec;wygładzonego piaskowca;wygładzonemu piaskowcowi;wygładzony piaskowiec
+wygładzony łupek;wygładzonego łupku;wygładzonemu łupkowi;wygładzony łupek
+bloki granitu;bloków granitu;blokom granitu;bloki granitu
+bloki wapienia;bloków wapienia;blokom wapienia;bloki wapienia
+bloki marmuru;bloków marmuru;blokom marmuru;bloki marmuru
+bloki piaskowca;bloków piaskowca;blokom piaskowca;bloki piaskowca
+bloki łupku;bloków piaskowca;blokom piaskowca;bloki piaskowca
+
+// WakeUp.xml
+pobudzacz;pobudzacza;pobudzaczowi;pobudzacz
+
+// Weapons_Breach.xml
+bomba uderzeniowa;bomby uderzeniowej;bombie uderzeniowej;bombę uderzeniową
+działo uderzeniowe;działa uderzeniowego;działu uderzeniowemu;działo uderzeniowe
+
+//----------------------------------------
+//---------- ROYALTY - ThingDef ----------
+//----------------------------------------
+// Buildings_ConditionCausers.xml
+regulator klimatu;regulatora klimatu;regulatorowi klimatu;regulator klimatu
+dynamo EMI;dynama EMI;dynamu EMI;dynamo EMI
+brzęczyk PSI;brzęczyka PSI;brzęczykowi PSI;brzęczyk PSI
+generator tłumienia PSI;generatora tłumienia PSI;generatorowi tłumienia PSI;generator tłumienia PSI
+rozpylacz dymu;rozpylacza dymu;rozpylaczowi dymu;rozpylacz dymu
+bloker słońca;blokera słońca;blokerowi słońca;bloker słońca
+rozpylacz toksyn;rozpylacza toksyn;rozpylaczowi toksyn;rozpylacz toksyn
+kontroler pogody;kontrolera pogody;kontrolerowi pogody;kontroler pogody
+
+// Buildings_Exotic.xml
+wypalająca się osłona nisko-kątowa;wypalającej się osłony nisko-kątowej;wypalającej się osłonie nisko-kątowej;wypalającą się osłonę nisko-kątową
+prom;promu;promowi;prom
+rozbity prom;rozbitego promu;rozbitemu promowi;rozbity prom
+
+// Buildings_Furniture.xml
+koksownik;koksownika;koksownikowi;koksownik
+parawan;parawanu;parawanowi;parawan
+wielki tron medytacyjny;wielkiego tronu medytacyjnego;wielkiemu tronowi medytacyjnemu;wielki tron medytacyjny
+tron medytacyjny;tronu medytacyjnego;tronowi medytacyjnemu;tron medytacyjny
+
+// Buildings_Mech.xml
+defoliator;defoliatora;defoliatorowi;defoliator
+węzeł mechanoidów;węzła mechanoidów;węzłowi mechanoidów;węzeł mechanoidów
+niestabilne ogniwo zasilające;niestabilnego ogniwa zasilającego;niestabilnemu ogniwu zasilającemu;niestabilne ogniwo zasilające
+
+// Buildings_Mech_Activators.xml
+aktywator czasowy;aktywatora czasowego;aktywatorowi czasowemu;aktywator czasowy
+aktywator zbliżeniowy;aktywatora zbliżeniowego;aktywatorowi zbliżeniowemu;aktywator zbliżeniowy
+
+// Buildings_Mech_ShieldGenerators.xml
+mechaniczna osłona nisko-kątowa;mechanicznej osłony nisko-kątowej;mechanicznej osłonie nisko-kątowej;mechaniczną osłonę nisko-kątową
+mechaniczna osłona wysoko-kątowa;mechanicznej osłony wysoko-kątowej;mechanicznej osłonie wysoko-kątowej;mechaniczną osłonę wysoko-kątową
+
+// Buildings_Mech_Spawners.xml
+monter mechanoidów;montera mechanoidów;monterowi mechanoidów;monter mechanoidów
+kapsuła mechanoidów;kapsuły mechanoidów;kapsule mechanoidów;kapsułę mechanoidów
+nadajnik zrzutu mechanoidów;nadajnika zrzutu mechanoidów;nadajnikowi zrzutu mechanoidów;nadajnik zrzutu mechanoidów
+
+// Buildings_Mech_Turrets.xml
+auto-moździerz;auto-moździerza;auto-moździerzowi;auto-moździerz
+mini-pocisk;mini-pocisku;mini-pociskowi;mini-pocisk
+lekki miotacz energetyczny;lekkiego miotacza energetycznego;lekkiemu miotaczowi energetycznemu;lekki miotacz energetyczny
+mini-działko;mini-działka;mini-działku;mini-działko
+autom. wieżyczka energetyczna;autom. wieżyczki energetycznej;autom. wieżyczce energetycznej;autom. wieżyczkę energetyczną
+autom. wieżyczka inferno;autom. wieżyczki inferno;autom. wieżyczce inferno
+wieżyczka z mini-działkiem;wieżyczki z mini-działkiem;wieżyczce z mini-działkiem;wieżyczkę z mini-działkiem
+autom. moździerz;autom. moździerza;autom. moździerzowi;autom. moździerz
+
+// Buildings_Misc.xml
+kamień animus;kamienia animusa;kamieniu animusa;kamień animus
+miejsce medytacji;miejsca medytacji;miejscu medytacji;miejsce medytacji
+naturalna duża kapliczka;naturalnej dużej kapliczki;naturalnej dużej kapliczce;naturalną dużą kapliczkę
+naturalna mała kapliczka;naturalnej małej kapliczki;naturalnej małej kapliczce;naturalną małą kapliczkę
+nadajnik lądowania statku;nadajnika lądowania statku;nadajnikowi lądowania statku;nadajnik lądowania statku
+
+// Buildings_MusicalInstruments.xml
+harfa;harfy;harfie;harfę
+klawesyn;klawesynu;klawesynowi;klawesyn
+fortepian;fortepianu;fortepianowi;fortepian
+niedokończony fortepian;niedokończonego fortepianu;niedokończonemu fortepianowi;niedokończony fortepian
+
+// Plants_special.xml
+podręczna osłona nisko-kątowa;podręcznej osłony nisko-kątowej;podręcznej osłonie nisko-kątowej
+plecak skokowy-plecaka skokowego;plecakowi skokowemu;plecak skokowy
+
+// Plants_special.xml
+elteksowa jarmułka;elteksowej jarmułki;elteksowej jarmułce;elteksową jarmułkę
+elteksowy hełm;elteksowej;elteksowej;elteksową
+elteksowa szata;elteksowej szaty;elteksowej szacie;elteksową szatę
+elteksowa koszulka;elteksowej koszulki;elteksowej koszulce;elteksową koszulkę
+elteksowa kamizelka;elteksowej kamizelki;elteksowej kamizelce;elteksową kamizelkę
+
+// Plants_special.xml
+beret;beretu;beretowi;beret
+peleryna;peleryny;pelerynie;pelerynę
+diadem;diademu;diademowi;diadem
+gorset;gorsetu;gorsetowi;gorset
+korona;korony;koronie;koronę
+gwiezdna korona;gwiezdnej korony;gwiezdnej koronie;gwiezdną koronę
+kobiecy kapelusz;kobiecego kapelusza;kobiecemu kapeluszowi;kobiecy kapelusz
+cylinder;cylindra;cylindrowi;cylinder
+prestiżowa szata;prestiżowej szaty;prestiżowej szacie;prestiżową szatę
+koszula formalna;koszuli formalnej;koszuli formalnej;koszulę formalną
+kamizelka formalna;kamizelki formalnej;kamizelce formalnej;kamizelkę formalną
+
+// Plants_special.xml
+zbroja katafrakta;zbroi katafrakta;zbroi katafrakta;zbroję katafrakta
+zbroja feniksa;zbroi feniksa;zbroi feniksa;zbroję feniksa
+prestiżowa zbroja katafrakta;prestiżowej zbroi katafrakta;prestiżowej zbroi katafrakta;prestiżową zbroję katafrakta
+hełm katafrakta;hełmu katafrakta;hełmowi katafrakta;hełm katafrakta
+prestiżowy hełm katafrakta;prestiżowego hełmu katafrakta;prestiżowemu hełmowi katafrakta;prestiżowy hełm katafrakta
+prestiżowy hełm zwiadowcy;prestiżowego hełmu zwiadowcy;prestiżowemu hełmowi zwiadowcy;prestiżowy hełm zwiadowcy
+zbroja szarańczy;zbroi szarańczy;zbroi szarańczy;zbroję szarańczy
+zbroja grenadiera;zbroi grenadiera;zbroi grenadiera;zbroje grenadiera
+prestiżowy hełm marine;prestiżowego hełmu marine;prestiżowemu hełmowi marine;prestiżowy hełm marine
+prestiżowa zbroja marine;prestiżowej zbroi marine;prestiżowej zbroi marine;prestiżową zbroję marine
+prestiżowa zbroja zwiadowcy;prestiżowej zbroi zwiadowcy;prestiżowej zbroi zwiadowcy;prestiżową zbroję zwiadowcy
+gunlink;gunlinka;gunlinkowi;gunlink
+granat zapalający;granatu zapalającego;granatowi zapalającemu;granat zapalający
+granat odłamkowy;granatu odłamkowego;granatowi odłamkowemu;granat zapalający
+
+// Plants_Wild.xml
+trawa anima;trawy anima;trawie anima;trawę anima
+drzewo anima;drzewa anima;drzewu anima;drzewo anima
+
+//-----------------------------------------
+//---------- IDEOLOGY - ThingDef ----------
+//-----------------------------------------
+// Buildings_Ancient_Active.xml
+starożytna konsola komunikacyjna;starożytnej konsoli komunikacyjnej;starożytnej konsoli komunikacyjnej;starożytną konsolę komunikacyjną
+starożytny terminal wroga;starożytnego terminalu wroga;starożytnemu terminalowi wroga;starożytny terminal wroga
+starożytny niestabilny węzeł paliwowy;starożytnego niestabilnego węzła paliwowego;starożytnemu niestabilnemu węzłowi paliwowemu;starożytny niestabilny węzeł paliwowy
+hermetyczna skrzynia;hermetycznej skrzyni;hermetycznej skrzyni;hermetyczną skrzynię
+skrzynka bezpieczeństwa;skrzynki bezpieczeństwa;skrzynce bezpieczeństwa;skrzynkę bezpieczeństwa
+starożytny terminal;starożytnego terminalu;starożytnemu terminalowi;starożytny terminal
+
+// Buildings_Ancient_Indoors.xml
+starożytna beczka;starożytnej beczki;starożytnej beczce;starożytną beczkę
+starożytne łóżko;starożytnego łóżka;starożytnemu łóżku;starożytne łóżko
+starożytna skrzynia;starożytnej skrzyni;starożytnej skrzyni;starożytną skrzynię
+starożytny wyświetlacz;starożytnego wyświetlacza;starożytnemu wyświetlaczowi;starożytny wyświetlacz
+starożytne bloki wyposażenia;starożytnych bloków wyposażenia;starożytnym blokom wyposażenia;starożytne bloki wyposażenia
+starożytny generator;starożytnego generatora;starożytnemu generatorowi;starożytny generator
+starożytna lampa;starożytnej lampy;starożytnej lampie;starożytną lampę
+starożytna szafka bankowa;starożytnej szafy bankowej;starożytnej szafie bankowej;starożytną szafę bankową
+starożytna maszyna;starożytnej maszyny;starożytnej maszynie;starożytną maszynę
+starożytna wojskowa skrzynia;starożytnej wojskowej skrzyni;starożytnej wojskowej skrzyni;starożytna wojskową skrzynię
+starożytny stół operacyjny;starożytnego stołu operacyjnego;starożytnemu stołowi operacyjnemu;starożytny stół operacyjny
+starożytna kosmiczna skrzynia;starożytnej kosmicznej skrzyni;starożytnej kosmicznej skrzyni;starożytną kosmiczną skrzynię
+starożytny cylinder magazynowy;starożytnego cylindra magazynowego;starożytnemu cylindrowi magazynowemu;starożytny cylinder magazynowy
+starożytny regał;starożytnego regału;starożytnemu regałowi;starożytny regał
+
+// Buildings_Ancient_Outdoors.xml
+starożytny klimatyzator;starożytnego klimatyzatora;starożytnemu klimatyzatorowi;starożytny klimatyzator
+zrujnowany starożytny APC;zrujnowanego starożytnego APC;zrujnowanemu starożytnemu APC;zrujnowany starożytny APC
+starożytny bankomat;starożytnego bankomatu;starożytnemu bankomatowi;starożytny bankomat
+skorupa starożytnego wija;skorupy starożytnego wija;skorupie starożytnego wija;skorupę starożytnego wija
+starożytny pojemnik;starożytnego pojemnika;starożytnemu pojemnikowi;starożytny pojemnik
+silnik starożytnego transportowca;silnika starożytnego transportowca;silnikowi starożytnego transportowca;silnik starożytnego transportowca
+starożytne ogrodzenie;starożytnego ogrodzenia;starożytnemu ogrodzeniu;starożytne ogrodzenie
+wielkie starożytne koło;wielkiego starożytnego koła;wielkiemu starożytnemu kołu;wielkie starożytne koło
+starożytny hydrant;starożytnego hydrantu;starożytnemu hydrantu;starożytny hydrant
+starożytny silnik odrzutowy;starożytnego silnika odrzutowego;starożytnemu silnikowi odrzutowemu;starożytny silnik odrzutowy
+starożytny zlew kuchenny;starożytnego zlewu kuchennego;starożytnemu zlewu kuchennemu;starożytny zlew kuchenny
+duża starożytna skrzynia;dużej starożytnej skrzyni;dużej starożytnej skrzyni;dużą starożytną skrzynię
+starożytny makro silnik;starożytnego makro silnika;starożytnemu makro silnikowi;starożytny makro silnik
+długa starożytna skrzynia;długiej starożytnej skrzyni;długiej starożytnej skrzyni;długą starożytną skrzynię
+blok starożytnego makro silnika;bloku starożytnego makro silnika;bloku starożytnego makro silnika;blok starożytnego makro silnika
+podłużna starożytna skrzynia;podłużna starożytna skrzynia;podłużnej starożytnej skrzyni;podłużną starożytną skrzynię
+powłoka starożytnego mechanoida;powłoki starożytnego mechanoida;powłoce starożytnego mechanoida;powłokę starożytnego mechanoida
+starożytna latarnia zrzutów mechanoidów;starożytnej latarni zrzutów;starożytnej latarni zrzutów;starożytną latarnię zrzutów
+lufa starożytnej mega armaty;lufy starożytnej mega armaty;lufie starożytnej mega armaty;lufę starożytnej mega armaty
+platforma starożytnej mega armaty;platformy starożytnej mega armaty;platformie starożytnej mega armaty;platformę starożytnej mega armaty
+starożytna mikrofalówka;starożytnej mikrofalówki;starożytnej mikrofalówce;starożytną mikrofalówkę
+pozostałość starożyt. biegacza bojowego;pozostałości starożyt. biegacza bojowego;pozostałości starożyt. biegacza bojowego;pozostałość starożyt. biegacza bojowego
+starożytny piekarnik;starożytnego piekarnika;starożytnemu piekarnikowi;starożytny piekarnik
+odcinek starożytnego rurociągu;odcinka starożytnego rurociągu;odcinkowi starożytnemu rurociągu;odcinek starożytnego rurociągu
+starożytne rury;starożytnych rur;starożytnym rurom;starożytne rury
+starożytny samochód kapsułowy;starożytnego samochodu kapsułowego;starożytnemu samochodowi kapsułowemu;starożytny samochód kapsułowy
+starożytna skrzynka pocztowa;starożytnej skrzynki pocztowej;starożytnej skrzynce pocztowej;starożytną skrzynkę pocztową
+starożytny drut kolczasty;starożytnego druta kolczastego;starożytnemu drutu kolczastemu;starożytny drut kolczasty
+starożytna lodówka;starożytnej lodówki;starożytnej lodówce;starożytną lodówkę
+starożytny samochód;starożytnego samochodu;starożytnemu samochodowi;starożytny samochód
+rama starożytnego samochodu;ramy starożytnego samochodu;ramie starożytnego samochodu;ramę starożytnego samochodu
+starożytny transportowiec;starożytnego transportowca;starożytnemu transportowcowi;starożytny transportowiec
+starożytny silnik;starożytnego silnika;starożytnemu silnikowi;starożytny silnik
+starożytny transporter bojowy;starożytnego transportera bojowego;starożytnemu transporterowi bojowemu;starożytny transporter bojowy
+starożytna ciężarówka;starożytnej ciężarówki;starożytnej ciężarówce;starożytną ciężarówkę
+starożytna wieżyczka;starożytnej wieżyczki;starożytnej wieżyczce;starożytną wieżyczkę
+starożytna latarnia nawigacyjna;starożytnej latarni nawigacyjnej;starożytnej latarni nawigacyjnej;starożytną latarnię nawigacyjną
+starożytny wózek na zakupy;starożytnego wózka na zakupy;starożytnemu wózkowi na zakupy;starożytny wózek na zakupy
+mała starożytna skrzynka;małej starożytnej skrzynki;małej starożytnej skrzynce;małą starożytną skrzynkę
+starożytny piec;starożytnego pieca;starożytnemu piecu;starożytny piec
+zniszczony starożytny czołg;zniszczonego starożytnego czołgu;zniszczonemu starożytnemu czołgowi;zniszczony starożytny czołg
+starożytna pułapka czołgowa;starożytnej pułapki czołgowej;starożytnej pułapce czołgowej;starożytną pułapkę czołgową
+starożytna toaleta;starożytnej toalety;starożytnej toalecie;starożytną toaletę
+starożytny automat;starożytnego automatu;starożytnemu automatowi;starożytny automat
+szczątki starożytnego pająka bojowego;szczątków starożytnego pająka bojowego;szczątkom starożytnego pająka bojowego;szczątki starożytnego pająka bojowego
+pazur starożytnego łazika bojowego;pazura starożytnego łazika bojowego;pazurowi starożytnego łazika bojowego;pazur starożytnego łazika bojowego
+stopa starożytnego łazika bojowego;stopy starożytnego łazika bojowego;stopie starożytnego łazika bojowego;stopę starożytnego łazika bojowego
+noga starożytnego łazika bojowego;nogi starożytnego łazika bojowego;nodze starożytnego łazika bojowego;nogę starożytnego łazika bojowego
+skorupa starożytnego łazika bojowego;skorupy starożytnego łazika bojowego;skorupie starożytnego łazika bojowego;skorupę starożytnego łazika bojowego
+tułów starożytnego łazika bojowego;tułowia starożytnego łazika bojowego;tułowiu starożytnego łazika bojowego;tułów starożytnego łazika bojowego
+starożytna pralka;starożytnej pralki;starożytnej pralce;starożytną pralkę
+starożytne koło;starożytnego koła;starożytnemu kołu;starożytne koło
+
+// Buildings_Art.xml
+rzeźba terroru;rzeźby terroru;rzeźbie terroru;rzeźbę terroru
+
+// Buildings_Exotic.xml
+kosmiczny dron;kosmicznego drona;kosmicznemu dronowi;kosmicznego drona
+
+// Buildings_Ideo.xml
+wielki ołtarz;wielkiego ołtarza;wielkiemu ołtarzowi;wielki ołtarz
+duży ołtarz;dużego ołtarza;dużemu ołtarzowi;duży ołtarz
+średni ołtarz;średniego ołtarza;średniemu ołtarzowi;średni ołtarz
+mały ołtarz;małego ołtarza;małemu ołtarzowi;mały ołtarz
+kapsuła biorzeźbiarska;kapsuły biorzeźbiarskiej;kapsule biorzeźbiarskiej;kapsułę biorzeźbiarską
+płonące bongo;płonącego bonga;płonącemu bongu;płonące bongo
+talerz kanibali;talerza kanibali;talerzu kanibali;talerz kanibali
+świąteczna choinka;świątecznej choinki;świątecznej choince;świąteczną choinkę
+stojąca lampa nocna;stojącej lampy nocnej;stojącej lampie nocnej;stojącą lampę nocną
+pochodnia nocna;pochodni nocnej;pochodni nocnej;pochodnię nocną
+grzybowa pochodnia nocna;grzybowej pochodni nocnej;grzybowej pochodni nocnej;grzybową pochodnię nocną
+kukła;kukły;kukle;kukłę
+ideogram;ideogramu;ideogramowi;ideogram
+kapliczka do kadzenia;kapliczki do kadzenia;kapliczce do kadzenia;kapliczkę do kadzenia
+super-doładowywacz neuronów;super-doładowywacza neuronów;super-doładowywaczowi;super-doładowywacz
+stos;stosu;stosowi;stos
+miejsce rytuału;miejsca rytuału;miejscu rytuału;miejsce rytuału
+flaga ofiarna;flagi ofiarnej;fladze ofiarnej;flagę ofiarną
+akcelerator snu;akceleratora snu;akceleratorowi snu;akcelerator snu
+
+// Buildings_Misc.xml
+autom. bongo;autom. bonga;autom. bongu;autom. bongo
+bęben;bębna;bębnowi;bęben
+kokon driady;kokonu driady;kokonowi driady;kokon driady
+kapsuła lecząca driady;kapsuły leczącej driady;kapsule leczącej driady;kapsułę leczącą driady
+strąk gaumaker;strąka gaumaker;strąkowi gaumaker;strąk gaumaker
+klatka na zwłoki;klatki na zwłoki;klatce na zwłoki;klatkę na zwłoki
+poduszka do klęczenia;poduszki do klęczenia;poduszce do klęczenia;poduszkę do klęczenia
+koc do klęczenia;koca do klęczenia;kocu do klęczenia;koc do klęczenia
+mównica;mównicy;mównicy;mównicę
+kula disco;kuli disco;kuli disco;kulę disco
+głośnik;głośnika;głośnikowi;głośnik
+ławka kościelna;ławki kościelnej;ławce kościelnej;ławkę kościelną
+doniczka na bonsai;doniczki na bonsai;doniczce na bonsai;doniczkę na bonsai
+relikwiarz;relikwiarza;relikwiarzowi;relikwiarz
+czaszka na szpikulcu;czaszki na szpikulcu;czaszce na szpikulcu;czaszkę na szpikulcu
+łóżko płytowe;łóżka płytowego;łóżku płytowemu;łóżko płytowe
+podwójne łóżko płytowe;podwójnego łóżka płytowego;podwójnemu łóżku płytowemu;podwójne łóżko płytowe
+stacja do stylizacji;stacji do stylizacji;stacji do stylizacji;stację do stylizacji
+
+// Buildings_Special.xml
+rdzeń archonexusa;rdzenia archonexusa;rdzeniu archonexusa;rdzeń archonexusa
+wieża archotycznych;wieży archotycznych;wieży archotycznych;wieżę archotycznych
+wielka struktura archotycznych;wielkiej struktury archotycznych;wielkiej strukturze archotycznych;wielką strukturę archotycznych
+duża struktura archotycznych;;dużej struktury archotycznych;dużej strukturze archotycznych;dużą strukturę archotycznych
+
+// Apparel_Various.xml
+opaska na oczy;opaski na oczy;opasce na oczy;opaskę na oczy
+pas niewolniczy;pasa niewolniczego;pasowi niewolniczemu;pas niewolniczy
+burka;burki;burce;burkę
+szata;szaty;szacie;szatę
+korona tortur;korony tortur;koronie tortur;koronę tortur
+
+// Apparel_Headgear.xml
+czapka garnizonowa;czapki garnizonowej;czapce garnizonowej;czapkę garnizonową
+hidżab;hidżabu;hidżabowi;hidżab
+obroża niewolnika;obroży niewolnika;obroży niewolnika;obroże niewolnika
+szeroka czapka;szerokiej czapki;szerokiej czapce;szeroką czapkę
+turban;turbanu;turbanowi;turban
+stożkowy kapelusz;stożkowego kapelusza;stożkowemu kapeluszowi;stożkowy kapelusz
+czepek;czepka;czepkowi;czepek
+czapka z ogonem;czapki z ogonem;czapce z ogonem;czapkę z ogonem
+maska;maski;masce;maskę
+
+// Plants_Special.xml
+barwnik;barwnika;barwnikowi;barwnik
+nasiono Gauranlen;nasiona Gauranlen;nasionu Gauranlen;nasiono Gauranlen
+włosak pospolity;włosaka pospolitego;włosakowi pospolitemu;włosaka pospolitego
+mech Gauranlen;mchu Gauranlen;mchowi Gauranlen;mech Gauranlen
+grzyb odżywczy;grzyba odżywczego;grzybowi odżywczemu;grzyba odżywczego
+strąk Gauranlen;strąka Gauranlen;strąkowi Gauranlen;strąk Gauranlen
+drzewogrzyb;drzewogrzyba;drzewogrzybowi;drzewogrzyb
+tinctoria;tinctorii;tinctorii;tinctorię
+drzewko bonsai;drzewka bonsai;drzewku bonsai;drzewko bonsai
+drzewo Gauranlen;drzewa Gauranlen;drzewu Gauranlen;drzewo Gauranlen
+
+// Races_Animal_Special.xml
+driada o skórze z kory;driady o skórze z kory;driadzie o skórze z kory;driadę o skórze z kory
+niedojrzała driada;niedojrzałej driady;niedojrzałej driadzie;niedojrzałą driadę
+driada producentka jagód;driady producentki jagód;driadzie producentce jagód;driadę producentkę jagód
+driada dostawca;driady dostawcy;driadzie dostawcy;driadę dostawcę
+driada pazurzasta;driady pazurzastej;driadzie pazurzastej;driadę pazurzastą
+driada producentka gau;driady producentki gau;driadzie producentce gau;driadę producentkę gau
+driada producentka leków;driady producentki leków;driadzie producentce leków;driadę producentkę leków
+driada producentka drewna;driady producentki drewna;driadzie producentce drewna;driadę producentkę drewna
+
+
+//------------------------------------------
+//---------- ROYALTY - PreceptDef ----------
+//------------------------------------------
+
+// Precepts_Ritual.xml
+oślepianie;oślepiania;oślepianiu;oślepianie
+rytuał konwersji;rytuału konwersji;rytuałowi konwersji;rytuał konwersji
+przyjęcie świątecznego drzewka;przyjęcia świątecznego drzewka;przyjęciu świątecznego drzewka;przyjęcie świątecznego drzewka
+publiczna egzekucja;publicznej egzekucji;publicznej egzekucji;publiczną egzekucję
+festiwal społeczny;festiwalu społecznego;festiwalu społecznemu;festiwal społeczny
+pogrzeb;pogrzebu;pogrzebowi;pogrzeb
+pogrzeb (bez ciała);pogrzeb (bez ciała);pogrzebu (bez ciała);pogrzebowi (bez ciała);pogrzeb (bez ciała)
+pojedynek gladiatorów;pojedynku gladiatorów;pojedynkowi gladiatorów;pojedynek gladiatorów
+zmiana roli;zmiany roli;zmianie roli;zmianę roli
+skaryfikacja;skaryfikacji;skaryfikacji;skaryfikację
+rytuał połączenia z drzewem;rytuału połączenia z drzewem;rytuałowi połączenia z drzewem;rytuał połączenia z drzewem
+proces sądowy;procesu sądowego;procesowi sądowemu;proces sądowy
