@@ -9,12 +9,22 @@
     <li>assaultBeginLetterLabel->Assault begun</li>
     <li>assaultBeginLetterText->The hostile sanguophage master and [sanguophage_possessive] thralls have initiated an assault on the colony!</li>
   -->
-  <SanguophageShip.questContentRules.rulesStrings>TODO</SanguophageShip.questContentRules.rulesStrings>
+  <SanguophageShip.questContentRules.rulesStrings>
+    <li>sanguophageShuttleCrashedLetterLabel->Rozbity prom</li>
+    <li>sanguophageShuttleCrashedLetterText->Wahadłowiec zawierający mistrza sanguofuagi i [thrallCount] niewolników rozbił się w pobliżu. Za chwilę wyjdą z rozbitego statku, więc przygotują się do walki.</li>
+    <li>reinforcementsArrivedLetterLabel->Wzmocnienia niewolnika</li>
+    <li>reinforcementsArrivedLetterText->Niewolnicy przybywają w kapsułach zrzutowych, aby wzmocnić rozbity sanguofuarz</li>
+    <li>assaultBeginLetterLabel->Rozpoczął się atak</li>
+    <li>assaultBeginLetterText->Wrogi mistrz sanguophage i [sanguophage_possessive] niewolnicy rozpoczęli atak na kolonię!</li>
+  </SanguophageShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have intercepted a distress signal! A hostile shuttle carrying a sanguophage master and [thrallCount] thralls is having trouble with its engines. You can use signals to draw it down to a crash near [map_definite].\n\nOnce the ship has crashed, you can fight the sanguophage and [sanguophage_possessive] minions. If you can capture the master, you can force [sanguophage_objective] to turn one of your colonists into a sanguophage.\n\n[sanguophageInfo]</li>
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
-  <SanguophageShip.questDescriptionRules.rulesStrings>TODO</SanguophageShip.questDescriptionRules.rulesStrings>
+  <SanguophageShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->Przechwyciłeś sygnał pomocy! Wrogi wahadłowiec przewożący mistrza sanguofage i [thrallCount] niewolników ma problemy ze swoimi silnikami. Możesz użyć sygnałów, aby awaryjnie lądował w pobliżu [map_definite].\n\nGdy statek się rozbije, możesz walczyć z sanguofage i jego niewolnikami. Jeśli uda ci się schwytać mistrza, możesz go zmusić do przekształcenia jednego z twoich kolonistów w sanguofage.\n\n[sanguophageInfo]</li>
+    <li>sanguophageInfo->(*Gray)O sanguofagach: Sanguofagi to ponadczasowi, nieśmiertelni nadludzie zasilani przez architetów stworzonych w krwiobiegu. Są piękne i niezwykle inteligentne. Mogą uleczyć każdą ranę i nigdy nie cierpią z powodu chorób ani trucizn. W walce mogą wystrzelić śmiercionośne kolce i leczyć rannych przyjaciół. Ceną jest to, że sanguofagi, aby przeżyć, muszą spożywać hemogen pochodzący z ludzkiej krwi oraz muszą okresowo przez długi czas odpoczywać w anabiozie. Łatwo je zniszczyć w ogniu i spowalniać wpływem światła UV.(/Gray)</li>
+  </SanguophageShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
     <li>shipAdjective->sanguophage</li>
@@ -34,6 +44,20 @@
     <li>shipNoun->crash</li>
     <li>shipNoun->wreck</li>
   -->
-  <SanguophageShip.questNameRules.rulesStrings>TODO</SanguophageShip.questNameRules.rulesStrings>
+  <SanguophageShip.questNameRules.rulesStrings>
+    <li>questName->[shipAdjective] [shipNoun]</li>
+    <li>shipAdjective->krwiożerczy</li>
+    <li>shipAdjective->krwawy</li>
+    <li>shipAdjective->mroczny</li>
+    <li>shipAdjective->ciemny</li>
+    <li>shipAdjective->karmazynowy</li>
+    <li>shipAdjective->czerwony</li>
+    <li>shipAdjective->hemiczny</li>
+    <li>shipNoun->statek</li>
+    <li>shipNoun->prom</li>
+    <li>shipNoun->wahadłowiec</li>
+    <li>shipNoun->wypadek</li>
+    <li>shipNoun->wrak</li>
+  </SanguophageShip.questNameRules.rulesStrings>
   
 </LanguageData>
