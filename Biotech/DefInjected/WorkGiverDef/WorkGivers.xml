@@ -65,11 +65,11 @@
   <CleanClearPollution.verb>czyść zanieczyszczenie</CleanClearPollution.verb>
   
   <!-- EN: create xenogerm -->
-  <CreateXenogerm.label>stwórz ksenozarodek</CreateXenogerm.label>
+  <CreateXenogerm.label>stwórz ksenoziarno</CreateXenogerm.label>
   <!-- EN: creating xenogerm at -->
-  <CreateXenogerm.gerund>tworzenie ksenozarodka</CreateXenogerm.gerund>
+  <CreateXenogerm.gerund>tworzenie ksenoziarna</CreateXenogerm.gerund>
   <!-- EN: create xenogerm -->
-  <CreateXenogerm.verb>twórz ksenozarodek</CreateXenogerm.verb>
+  <CreateXenogerm.verb>twórz ksenoziarno</CreateXenogerm.verb>
   
   <!-- EN: deliver hemogen to prisoners -->
   <DeliverHemogenToPrisoner.label>dostarcz hemogen do więźniów</DeliverHemogenToPrisoner.label>
