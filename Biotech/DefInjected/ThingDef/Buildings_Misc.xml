@@ -28,7 +28,7 @@
   <BurnoutMechlinkBooster.comps.CompUsable.useLabel>Wezwij królową wojny</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
 
   <!-- EN: gene assembler -->
-  <GeneAssembler.label>monter genów</GeneAssembler.label>
+  <GeneAssembler.label>asembler genów</GeneAssembler.label>
   <!-- EN: A workbench for creating implantable xenogerms from genepacks stored in nearby gene
   banks. Genepacks are not consumed in this process and can be reused. -->
   <GeneAssembler.description>Stół roboczy do tworzenia wszczepialnych ksenoziaren z pakietów
@@ -41,7 +41,7 @@
   placed near a gene assembler. Large gene libraries require many gene banks.\n\nWhen powered, gene
   banks prevent genepacks from deteriorating and will slowly repair deterioration. -->
   <GeneBank.description>Ten budynek może przechowywać pakiety genowe i używać ich do tworzenia
-    nowych ksenoziaren, jeśli znajduje się w pobliżu montera genów. Duże biblioteki genów wymagają
+    nowych ksenoziaren, jeśli znajduje się w pobliżu asemblera genów. Duże biblioteki genów wymagają
     wielu banków genów. Po zasileniu banki genów zapobiegają zniszczeniu pakietów genowych i powoli
     naprawiają zniszczenia.</GeneBank.description>
 
@@ -64,7 +64,7 @@
   maximum genetic complexity of the xenogerms you can assemble. Building multiple gene processors
   will increase the genetic complexity limit further. -->
   <GeneProcessor.description>System analizy i przetwarzania danych genetycznych. Umieszczony w
-    pobliżu montera genów, zwiększa maksymalną złożoność genetyczną ksenoziaren, które możesz
+    pobliżu asemblera genów, zwiększa maksymalną złożoność genetyczną ksenoziaren, które możesz
     złożyć. Zbudowanie wielu procesorów genów jeszcze bardziej zwiększy limit złożoności
     genetycznej.</GeneProcessor.description>
 

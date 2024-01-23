@@ -282,7 +282,7 @@
   <!-- EN: How much complexity this adds to the process of gene assembly. -->
   <ComplexityDesc>Jak bardzo to zwiększa złożoność procesu składania genów.</ComplexityDesc>
   <!-- EN: Maximum complexity can be increased by building gene processors near the gene assembler. -->
-  <MaxComplexityDesc>Maksymalną złożoność można zwiększyć, budując procesory genów w pobliżu montera genów.</MaxComplexityDesc>
+  <MaxComplexityDesc>Maksymalną złożoność można zwiększyć, budując procesory genów w pobliżu asemblera genów.</MaxComplexityDesc>
   <!-- EN: Total complexity -->
   <ComplexityTotal>Całkowita złożoność</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->

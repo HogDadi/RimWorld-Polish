@@ -118,7 +118,7 @@
   <!-- EN: This xenogerm requires more genetic complexity than the gene assembler and nearby powered
   gene processors can support. -->
   <GeneProcessorUnpowered>te ksenoziarno wymaga większej złożoności genetycznej, niż może obsłużyć
-    monter genów i pobliskie, zasilane procesory genów.</GeneProcessorUnpowered>
+    asembler genów i pobliskie, zasilane procesory genów.</GeneProcessorUnpowered>
   <!-- EN: Estimated recombination time -->
   <RecombineDuration>Szacowany czas rekombinacji</RecombineDuration>
   <!-- EN: How long it would take for an average worker to combine the selected genes into a
@@ -149,7 +149,7 @@
   <!-- EN: no xenogerm implanted -->
   <NoXenogermImplanted>nie zaimplementowano ksenoziarna</NoXenogermImplanted>
   <!-- EN: germline genes -->
-  <Endogenes>geny linii germinalnej</Endogenes>
+  <Endogenes>geny linii zarodkowej</Endogenes>
   <!-- EN: xenogenes -->
   <Xenogenes>ksenogeny</Xenogenes>
   <!-- EN: overridden -->

@@ -7,7 +7,7 @@
   <DeathrestAccelerator.description>Urządzenie to łączy się z osobą podczas deathrestu i sprawia, że deathrest kończy się szybciej. Wzmacnia działanie trumny do deathrestu za pomocą dokładniejszej analizy krwi i silniejszych substancji chemicznych. Aby działało, musi być podłączone do trumny do deathrestu.</DeathrestAccelerator.description>
   
   <!-- EN: deathrest casket -->
-  <DeathrestCasket.label>trumna do deathrestu</DeathrestCasket.label>
+  <DeathrestCasket.label>trumna do anabiozy</DeathrestCasket.label>
   <!-- EN: An enclosed med-casket that accelerates the process of deathrest. It can connect to other devices which confer additional bonuses on the deathrester. The number of devices that can connect depends on the person's deathrest capacity, which can be seen by selecting them.\n\nOnly those with the deathrest gene can use the deathrest casket. -->
   <DeathrestCasket.description>Zamknięta kapsuła medyczna, która przyspiesza proces deathrestu. Może łączyć się z innymi urządzeniami, które nadają dodatkowe bonusy do deathrestu. Liczba urządzeń, które mogą się podłączyć zależy od zdolności deathrestu danej osoby, co można zobaczyć wybierając je.\n\nZ trumny do deathrestu mogą korzystać tylko osoby posiadające gen deathrestu.</DeathrestCasket.description>
   
