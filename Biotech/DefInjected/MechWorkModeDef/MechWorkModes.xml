@@ -2,23 +2,23 @@
 <LanguageData>
   
   <!-- EN: escort -->
-  <Escort.label>TODO</Escort.label>
+  <Escort.label>eskortuj</Escort.label>
   <!-- EN: Stay near the mechanitor and fight nearby enemies. Follow the mechanitor, even off the map. -->
-  <Escort.description>TODO</Escort.description>
+  <Escort.description>Trzymaj się blisko mechanitora i walcz z pobliskimi przeciwnikami. Podążaj za mechanitorem, nawet poza mapą.</Escort.description>
   
   <!-- EN: recharge -->
-  <Recharge.label>TODO</Recharge.label>
+  <Recharge.label>naładuj</Recharge.label>
   <!-- EN: Go to rechargers and recharge, even if already well-charged. -->
-  <Recharge.description>TODO</Recharge.description>
+  <Recharge.description>Idź do ładowarek i naładuj, nawet jeśli jest już naładowany.</Recharge.description>
   
   <!-- EN: dormant self-charge -->
-  <SelfShutdown.label>TODO</SelfShutdown.label>
+  <SelfShutdown.label>rozpocznij samoładowanie</SelfShutdown.label>
   <!-- EN: Go into a dormant self-charging state that very slowly regains energy without a recharger. -->
-  <SelfShutdown.description>TODO</SelfShutdown.description>
+  <SelfShutdown.description>Przejdź w stan uśpienia samoładującego, który bardzo powoli odzyskuje energię bez ładowarki.</SelfShutdown.description>
   
   <!-- EN: work -->
-  <Work.label>TODO</Work.label>
+  <Work.label>pracuj</Work.label>
   <!-- EN: Work autonomously according to mechanoid type. Automatically go to rechargers and recharge when needed. -->
-  <Work.description>TODO</Work.description>
+  <Work.description>Pracuj autonomicznie zgodnie z typem mechanoida. Automatycznie przechodź do ładowarek i ładuj, gdy zajdzie taka potrzeba.</Work.description>
   
 </LanguageData>

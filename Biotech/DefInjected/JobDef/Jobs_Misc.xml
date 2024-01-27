@@ -11,7 +11,7 @@
   <CarryToBuilding.reportString>przenoszenie TargetB z TargetA.</CarryToBuilding.reportString>
   
   <!-- EN: Doing something. -->
-  <CastAbilityGoToThing.reportString>Robi coś.</CastAbilityGoToThing.reportString>
+  <CastAbilityGoToThing.reportString>Coś robi.</CastAbilityGoToThing.reportString>
   
   <!-- EN: Doing something. -->
   <CastAbilityOnThingWithoutWeapon.reportString>Robienie czegoś.</CastAbilityOnThingWithoutWeapon.reportString>

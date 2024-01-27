@@ -2,33 +2,33 @@
 <LanguageData>
   
   <!-- EN: floor drawing -->
-  <Floordrawing.label>TODO</Floordrawing.label>
+  <Floordrawing.label>rysuj na ziemi</Floordrawing.label>
   <!-- EN: Draw designs on the ground using chalk. A cleaner will eventually remove the drawings. -->
-  <Floordrawing.description>TODO</Floordrawing.description>
+  <Floordrawing.description>Rysuj projekty na ziemi za pomocą kredy. Sprzątaczka w końcu usunie rysunki.</Floordrawing.description>
   
   <!-- EN: lesson taking -->
-  <Lessontaking.label>TODO</Lessontaking.label>
+  <Lessontaking.label>bierz lekcje</Lessontaking.label>
   <!-- EN: An adult assigned to childcare will teach about various topics. This gives experience in skills. Requires a school desk. -->
-  <Lessontaking.description>TODO</Lessontaking.description>
+  <Lessontaking.description>Osoba dorosła przydzielona do opieki nad dziećmi będzie uczyć na różne tematy. Daje to doświadczenie w umiejętnościach. Wymaga biurka szkolnego.</Lessontaking.description>
   
   <!-- EN: nature running -->
-  <NatureRunning.label>TODO</NatureRunning.label>
+  <NatureRunning.label>biegaj na łonie natury</NatureRunning.label>
   <!-- EN: Explore the local outdoors. Requires access to the outdoors. -->
-  <NatureRunning.description>TODO</NatureRunning.description>
+  <NatureRunning.description>Poznaj lokalne tereny. Wymaga dostępu do środowiska zewnętrznego.</NatureRunning.description>
   
   <!-- EN: radio talking -->
-  <Radiotalking.label>TODO</Radiotalking.label>
+  <Radiotalking.label>rozmawiaj przez radio</Radiotalking.label>
   <!-- EN: Chat with people over the radio. Requires a powered comms console. -->
-  <Radiotalking.description>TODO</Radiotalking.description>
+  <Radiotalking.description>Rozmawiaj z ludźmi przez radio. Wymaga zasilanej konsoli łączności.</Radiotalking.description>
   
   <!-- EN: sky dreaming -->
-  <Skydreaming.label>TODO</Skydreaming.label>
+  <Skydreaming.label>rozmarz się</Skydreaming.label>
   <!-- EN: Find a spot outside and watch the sky. Requires access to the outdoors. -->
-  <Skydreaming.description>TODO</Skydreaming.description>
+  <Skydreaming.description>Znajdź miejsce na zewnątrz i obserwuj niebo. Wymaga dostępu do środowiska zewnętrznego.</Skydreaming.description>
   
   <!-- EN: work watching -->
-  <Workwatching.label>TODO</Workwatching.label>
+  <Workwatching.label>obserwuj prace</Workwatching.label>
   <!-- EN: Follow an adult and watch them as they work. This gives experience in skills. -->
-  <Workwatching.description>TODO</Workwatching.description>
+  <Workwatching.description>Podążaj za osobą dorosłą i obserwuj ją podczas pracy. To daje doświadczenie w umiejętnościach.</Workwatching.description>
   
 </LanguageData>
