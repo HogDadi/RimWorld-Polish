@@ -2,16 +2,16 @@
 <LanguageData>
   
   <!-- EN: absorbing xenogerm from TargetA. -->
-  <AbsorbXenogerm.reportString>wchłanianie ksenoziarna z TargetA.</AbsorbXenogerm.reportString>
+  <AbsorbXenogerm.reportString>wchłanianie ksenogermy z TargetA.</AbsorbXenogerm.reportString>
   
   <!-- EN: hauling TargetA to TargetB. -->
   <CarryGenepackToContainer.reportString>ciągnięcie TargetA z TargetB.</CarryGenepackToContainer.reportString>
   
   <!-- EN: carrying TargetB to TargetA. -->
-  <CarryToBuilding.reportString>przenoszenie TargetB z TargetA.</CarryToBuilding.reportString>
+  <CarryToBuilding.reportString>carrying TargetB to TargetA.</CarryToBuilding.reportString>
   
   <!-- EN: Doing something. -->
-  <CastAbilityGoToThing.reportString>Coś robi.</CastAbilityGoToThing.reportString>
+  <CastAbilityGoToThing.reportString>Robi coś.</CastAbilityGoToThing.reportString>
   
   <!-- EN: Doing something. -->
   <CastAbilityOnThingWithoutWeapon.reportString>Robienie czegoś.</CastAbilityOnThingWithoutWeapon.reportString>
@@ -26,10 +26,10 @@
   <ControlMech.reportString>przejęcie kontroli nad TargetA.</ControlMech.reportString>
   
   <!-- EN: creating xenogerm. -->
-  <CreateXenogerm.reportString>tworzenie ksenoziarna</CreateXenogerm.reportString>
+  <CreateXenogerm.reportString>tworzenie ksenogerm</CreateXenogerm.reportString>
   
   <!-- EN: deathresting. -->
-  <Deathrest.reportString>przebywanie w anabiozie.</Deathrest.reportString>
+  <Deathrest.reportString>przebywanie w nibyśmierci.</Deathrest.reportString>
   
   <!-- EN: disassembling TargetA. -->
   <DisassembleMech.reportString>demontaż TargetA.</DisassembleMech.reportString>
@@ -38,7 +38,7 @@
   <EnterBuilding.reportString>wejście TargetA.</EnterBuilding.reportString>
   
   <!-- EN: absorbing xenogerm from TargetA. -->
-  <GetReimplanted.reportString>wchłania ksenoziarna z TargetA.</GetReimplanted.reportString>
+  <GetReimplanted.reportString>wchłania ksenogermę z TargetA.</GetReimplanted.reportString>
   
   <!-- EN: hauling TargetA to charger. -->
   <HaulMechToCharger.reportString>ciągnie TargetA do ładowarki.</HaulMechToCharger.reportString>

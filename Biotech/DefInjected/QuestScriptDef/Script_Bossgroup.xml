@@ -13,17 +13,21 @@
     <li>bossDefeatedLetterLabel->[escortees0_label] pokonany: [reward_label]</li>
     <li>bossDefeatedStudyChipLetterText->[defeated][study][manufacture]</li>
     <li>bossDefeatedLetterText->[defeated][manufacture]</li>
-    <li>defeated->Wrogi [escortees0_label] został pokonany upuszczając przy tym [reward_label]!</li>
-    <li>manufacture->\n\nChip można wykorzystać także do tworzenia bardziej zaawansowanych mechanoidów.</li>
-    <li>study->\n\nMożesz zapoznać się z [reward_label], wybierając mechanitora i klikając go prawym przyciskiem myszy. Zbadanie [reward_label] pomaga odblokować wyższe poziomy badań mechtechowych.</li>
+    <li>defeated->[escortees0_label] został pokonany i upuścił [reward_label]!</li>
+    <li>manufacture->\n\nCzip może zostać użyty do produkcji bardziej zaawansowanych mechanoidów.</li>
+    <li>study->\n\n[reward_label] może zostać zbadany poprzez wybranie mechanitora i kliknięcie prawym przyciskiem myszy na czip. Zbadany [reward_label] umożliwi odblokowanie bardziej zaawansowanych badań mechologicznych.</li>
   </Bossgroup.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->bossgroup</li>
   -->
-  <Bossgroup.questDescriptionRules.rulesStrings><li>questDescription->grupa szefów</li></Bossgroup.questDescriptionRules.rulesStrings>
+  <Bossgroup.questDescriptionRules.rulesStrings>
+    <li>questDescription->Zaawansowany mechanoid wraz z eskortą</li>
+  </Bossgroup.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->bossgroup</li>
   -->
-  <Bossgroup.questNameRules.rulesStrings><li>questName->grupa szefów</li></Bossgroup.questNameRules.rulesStrings>
+  <Bossgroup.questNameRules.rulesStrings>
+    <li>questName->Zaawansowany mechanoid wraz z eskortą</li>
+  </Bossgroup.questNameRules.rulesStrings>
   
 </LanguageData>

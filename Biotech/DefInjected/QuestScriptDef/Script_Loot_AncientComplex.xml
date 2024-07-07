@@ -7,9 +7,9 @@
     <li>discoveryDesc(discovered==true)->determined the location</li>
   -->
   <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryDesc] starożytnej krypty, w której znajdują się pozostałości dawno zmarłego mechanitora.\n\nMechanitorzy mogą tworzyć, kontrolować i manipulować mechanoidami do pracy i walki. Jeśli uda ci się włamać do kompleksu i zebrać zwłoki mechanitora, możesz wydobyć z nich mechlink i zamienić jednego ze swoich kolonistów w mechanitora.\n\nUważaj – tego rodzaju konstrukcje mogą zawierać różnorodne zagrożenia, a twoja aktywność na bazę może przyciągnąć niechcianą uwagę.</li>
-    <li>discoveryDesc(discovered==false)->Odkryłeś w pobliżu miejsce</li>
-    <li>discoveryDesc(discovered==true)->Określiłeś lokalizację</li>
+    <li>questDescription->[discoveryDesc], w którym znajdują się szczątki dawno zmarłego mechanitora.\n\nMechanitorzy mogą tworzyć, kontrolować i manipulować mechanoidami, które można wykorzystać w pracy i w walce. Jeżeli uda Ci się włamać do kompleksu, możesz wyciągnąć mechlink ze zwłok mechanitora i zmienić jednego ze swoich kolonistów w mechanitora.\n\nUważaj - tego rodzaju konkstrukcje mogą być skrywać różnorodne niebezpieczeństwa, a Twoja obecność może przyciągnąć niepożądaną uwagę.</li>
+    <li>discoveryDesc(discovered==false)->Otrzymano informacje o starożytnym kompleksie</li>
+    <li>discoveryDesc(discovered==true)->Ustalono lokalizację starożytnego kompleksu</li>
   </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] mechanitor [complex]</li>
@@ -30,24 +30,32 @@
     <li>complex->mechsite</li>
   -->
   <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
-    <li>questName(p=3)->[complexAdj] [complex] mechanitora</li>
-    <li>questName(p=3)->[complexAdj2] [complex2] mechanitora</li>
-    <li>questName->[complex] mechanitora</li>
-    <li>questName->[complex2] mechanitora</li>
-    <li>complexAdj->tajny</li>
-    <li>complexAdj2->tajna</li>
-    <li>complexAdj->starożytny</li>
-    <li>complexAdj2->starożytna</li>
-    <li>complexAdj->stary</li>
-    <li>complexAdj2->stara</li>
-    <li>complexAdj->ukryty</li>
-    <li>complexAdj2->ukryta</li>
-    <li>complexAdj->niebezpieczny</li>
-    <li>complexAdj2->niebezpieczna</li>
-    <li>complex->kompleks</li>
-    <li>complex->mechaplex</li>
-    <li>complex2->baza</li>
-    <li>complex2->krypta</li>
+    <li>questName(p=3)->[complexAdj_Fem] [complex_Fem] mechanitora</li>
+    <li>questName(p=3)->[complexAdj_Mas] [complex_Mas] mechanitora</li>
+    <li>questName->[complex_Fem] mechanitora</li>
+    <li>questName->[complex_Mas] mechanitora</li>
+    <li>complexAdj_Mas->tajemny</li>
+    <li>complexAdj_Mas->pradawny</li>
+    <li>complexAdj_Mas->stary</li>
+    <li>complexAdj_Mas->odosobniony</li>
+    <li>complexAdj_Mas->prastary</li>
+    <li>complexAdj_Mas->niebezpieczny</li>
+    <li>complexAdj_Mas->dawny</li>
+    <li>complexAdj_Mas->starożytny</li>
+    <li>complexAdj_Fem->tajemna</li>
+    <li>complexAdj_Fem->pradawna</li>
+    <li>complexAdj_Fem->stara</li>
+    <li>complexAdj_Fem->odosobniona</li>
+    <li>complexAdj_Fem->prastara</li>
+    <li>complexAdj_Fem->niebezpieczna</li>
+    <li>complexAdj_Fem->dawna</li>
+    <li>complexAdj_Fem->starożytna</li>
+    <li>complex_Mas->kompleks</li>
+    <li>complex_Mas->obiekt</li>
+    <li>complex_Fem->kryjówka</li>
+    <li>complex_Fem->baza</li>
+    <li>complex_Fem->krypta</li>
+    
   </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
   
 </LanguageData>

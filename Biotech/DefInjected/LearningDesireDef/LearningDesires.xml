@@ -2,33 +2,33 @@
 <LanguageData>
   
   <!-- EN: floor drawing -->
-  <Floordrawing.label>rysuj na ziemi</Floordrawing.label>
+  <Floordrawing.label>rysowanie po podłodze</Floordrawing.label>
   <!-- EN: Draw designs on the ground using chalk. A cleaner will eventually remove the drawings. -->
-  <Floordrawing.description>Rysuj projekty na ziemi za pomocą kredy. Sprzątaczka w końcu usunie rysunki.</Floordrawing.description>
+  <Floordrawing.description>Rysuj po podłodze z użyciem kredy. Osoba przydzielona do sprzątania po czasie zmyje bazgroły.</Floordrawing.description>
   
   <!-- EN: lesson taking -->
-  <Lessontaking.label>bierz lekcje</Lessontaking.label>
+  <Lessontaking.label>uczęszczanie w lekcji</Lessontaking.label>
   <!-- EN: An adult assigned to childcare will teach about various topics. This gives experience in skills. Requires a school desk. -->
-  <Lessontaking.description>Osoba dorosła przydzielona do opieki nad dziećmi będzie uczyć na różne tematy. Daje to doświadczenie w umiejętnościach. Wymaga biurka szkolnego.</Lessontaking.description>
+  <Lessontaking.description>Dorosły przypisany do zajmowania się dziećmi będzie nauczać na rozmaite tematy. Przyśpiesza rozwój różnych umiejętności. Wymaga ławki.</Lessontaking.description>
   
   <!-- EN: nature running -->
-  <NatureRunning.label>biegaj na łonie natury</NatureRunning.label>
+  <NatureRunning.label>bieganie po dworze</NatureRunning.label>
   <!-- EN: Explore the local outdoors. Requires access to the outdoors. -->
-  <NatureRunning.description>Poznaj lokalne tereny. Wymaga dostępu do środowiska zewnętrznego.</NatureRunning.description>
+  <NatureRunning.description>Zwiedzaj lokalną przyrodę. Wymaga dostępu do otwartej przestrzeni.</NatureRunning.description>
   
   <!-- EN: radio talking -->
-  <Radiotalking.label>rozmawiaj przez radio</Radiotalking.label>
+  <Radiotalking.label>rozmawianie przez radio</Radiotalking.label>
   <!-- EN: Chat with people over the radio. Requires a powered comms console. -->
-  <Radiotalking.description>Rozmawiaj z ludźmi przez radio. Wymaga zasilanej konsoli łączności.</Radiotalking.description>
+  <Radiotalking.description>Rozmawiaj z ludźmi przez radio. Wymaga działającej konsoli komunikacyjnej.</Radiotalking.description>
   
   <!-- EN: sky dreaming -->
-  <Skydreaming.label>rozmarz się</Skydreaming.label>
+  <Skydreaming.label>oglądanie chmur</Skydreaming.label>
   <!-- EN: Find a spot outside and watch the sky. Requires access to the outdoors. -->
-  <Skydreaming.description>Znajdź miejsce na zewnątrz i obserwuj niebo. Wymaga dostępu do środowiska zewnętrznego.</Skydreaming.description>
+  <Skydreaming.description>Znajdź wygodne miejsce i podziwiaj niebo. Wymaga niezadaszonej przestrzeni.</Skydreaming.description>
   
   <!-- EN: work watching -->
-  <Workwatching.label>obserwuj prace</Workwatching.label>
+  <Workwatching.label>przyglądanie się pracy</Workwatching.label>
   <!-- EN: Follow an adult and watch them as they work. This gives experience in skills. -->
-  <Workwatching.description>Podążaj za osobą dorosłą i obserwuj ją podczas pracy. To daje doświadczenie w umiejętnościach.</Workwatching.description>
+  <Workwatching.description>Podążaj za dorosłym i patrz jak pracuje. Przyśpiesza rozwijanie się umiejętności.</Workwatching.description>
   
 </LanguageData>

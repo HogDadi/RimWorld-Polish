@@ -36,11 +36,11 @@
 
   <!-- Mechanitor -->
   <!-- EN: Overseer -->
-  <Overseer>Nadzorca</Overseer>
+  <Overseer>Overseer</Overseer>
   <!-- EN: None (not under control) -->
-  <OverseerNone>Brak (nie pod kontrolą)</OverseerNone>
+  <OverseerNone>None (not under control)</OverseerNone>
   <!-- EN: May go feral at any moment -->
-  <MayGoFeral>W każdej chwili może zdziczeć</MayGoFeral>
+  <MayGoFeral>May go feral at any moment</MayGoFeral>
   <!-- EN: Bandwidth -->
   <Bandwidth>Przepustowość</Bandwidth>
   <!-- EN: bandwidth -->
@@ -86,15 +86,15 @@
   <!-- EN: energy -->
   <EnergyLower>energia</EnergyLower>
   <!-- EN: Bandwidth usage -->
-  <BandwidthUsage>Wykorzystywana przepustowość</BandwidthUsage>
+  <BandwidthUsage>Wykorzystywana przepustość</BandwidthUsage>
   <!-- EN: Mech gestation bandwidth -->
   <MechGestationBandwidthUsed>Przepustowość mecha w ciąży</MechGestationBandwidthUsed>
   <!-- EN: Cannot summon {0} threat -->
-  <CannotSummon>Nie można przywołać zagrożenia {0}</CannotSummon>
+  <CannotSummon>Cannot summon {0} threat</CannotSummon>
   <!-- EN: {0} threat ready to summon -->
-  <ReadyToSummonThreat>{0} zagrożenie gotowe do przywołania</ReadyToSummonThreat>
+  <ReadyToSummonThreat>{0} threat ready to summon</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
-  <Summon>Przyzwij zagrożenie {0}</Summon>
+  <Summon>Summon {0} threat</Summon>
   <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>Nieosiągalny {0}</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
@@ -122,7 +122,7 @@
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>zdolność anabiozy</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>Określa to, z iloma budynkami anabiozy dana osoba może się połączyć podczas stanu anabiozy. Każdy budynek anabiotyczny zapewnia określoną korzyść, więc lepiej jest móc podłączyć się do większej ich liczby.\n\nZdolności anabiozy można zwiększyć za pomocą serum zdolności anabiozy. To serum można kupić od handlarzy.</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>Określa to, z iloma budynkami anabiozy dana osoba może się połączyć podczas stanu anabiozy. Każdy budynek deathresta zapewnia określoną korzyść, więc lepiej jest móc podłączyć się do większej ich liczby.\n\nZdolności anabiozy można zwiększyć za pomocą serum zdolności anabiozy. To serum można kupić od handlarzy.</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
   <PawnIsConnectedToBuildings>{PAWN_nameDef} jest połączony z budynkami  anabiozy {CURRENT} / {MAX} (max).</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
@@ -130,7 +130,7 @@
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
   <WakeDesc>Wybudź się ze stanu anabiozy.\n\n{PAWN_nameDef} był w stanie anabiozy przez {DURATION}.</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
-  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} musi być w stanie anabiozy przez co najmniej {TOTAL}. Wczesne przebudzenie sprawi, że {PAWN_nameDef} zachoruje, i nie będzie korzystać z żadnych budynków do anabiozy.</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} musi być w stanie anabiozy przez co najmniej {TOTAL}. Wczesne przebudzenie {PAWN_objective} sprawi, że {PAWN_objective} zachoruje, a {PAWN_pronoun} nie będzie korzystać z żadnych budynków do anabiozy.</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
   <WakeExtraDesc_Safe>{PAWN_nameDef} może teraz bezpiecznie się wybudzić.</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
@@ -138,7 +138,7 @@
   <!-- EN: Auto-wake -->
   <AutoWake>Auto-wybudzenie</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
-  <AutoWakeDesc>Po włączeniu {PAWN_nameDef} automatycznie wybudzi się, gdy zakończy się {PAWN_possessive} anabioza.\n\nGdy jest wyłączony, będzie kontynuować stan anabiozy, dopóki nie obudzisz {PAWN_objective} ręcznie.</AutoWakeDesc>
+  <AutoWakeDesc>Po włączeniu {PAWN_nameDef} automatycznie wybudzi się, gdy {PAWN_possessive} zakończy się anabioza.\n\nGdy jest wyłączony, {PAWN_pronoun} będzie kontynuować stan anabiozy, dopóki nie obudzisz {PAWN_objective} ręcznie.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef} jest w stanie anabiozy.</IsDeathresting>
   <!-- EN: Cannot deathrest -->
@@ -146,7 +146,7 @@
   <!-- EN: Start deathrest -->
   <StartDeathrest>Rozpocznij anabiozę</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
-  <ConfirmExitDeathrestUnderMinDays>Bezpieczne zakończenie stanu anabiozy trwa {MINDURATION}, ale {PAWN_nameDef} w stanie anabiozy był{PAWN_gender ? : a} tylko przez {CURDURATION}.\n\nWybudzenie teraz {PAWN_nameDef} przerywałoby {PAWN_possessive} stan anabiozy, wytrącając {PAWN_possessive} metabolizm z równowagi i powodując chorobę, która trwa będzie kilka dni.\n\nCzy na pewno chcesz {PAWN_objective} wybudzić?</ConfirmExitDeathrestUnderMinDays>
+  <ConfirmExitDeathrestUnderMinDays>Bezpieczne zakończenie stanu anabazy trwa {MINDURATION}, ale {PAWN_nameDef} w stanie anabiozy był tylko przez {CURDURATION}.\n\nWybudzenie {PAWN_nameDef} teraz przerywałoby {PAWN_possessive} stan anabiozy, wytrącając metabolizm {PAWN_possessive} z równowagi i powodując chorobę {PAWN_objective}, która trwa będzie kilka dni.\n\nCzy na pewno chcesz wybudzić {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>w stanie anabiozy</Deathresting>
   <!-- EN: complete -->
@@ -282,7 +282,7 @@
   <!-- EN: How much complexity this adds to the process of gene assembly. -->
   <ComplexityDesc>Jak bardzo to zwiększa złożoność procesu składania genów.</ComplexityDesc>
   <!-- EN: Maximum complexity can be increased by building gene processors near the gene assembler. -->
-  <MaxComplexityDesc>Maksymalną złożoność można zwiększyć, budując procesory genów w pobliżu asemblera genów.</MaxComplexityDesc>
+  <MaxComplexityDesc>Maksymalną złożoność można zwiększyć, budując procesory genów w pobliżu montera genów.</MaxComplexityDesc>
   <!-- EN: Total complexity -->
   <ComplexityTotal>Całkowita złożoność</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
@@ -308,9 +308,9 @@
   <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
   <ArchitesRequiredDesc>Archici to archotechniczne mechanity - mikroskopijne urządzenia, które mogą wpływać bezpośrednio na komórki i molekuły, stworzone zostały przez superinteligentnych archotechów. Potrafią dokonać wielkich rzeczy, a niektóre geny działają tylko wtedy, gdy wspierane są przez nieziemską maszynerię archotechów. Ludzie nie mogą tworzyć architów - ale możesz znaleźć je tylko wtedy, gdy archotechita wyprodukuje je z własnego, nieznanego nam powodu.</ArchitesRequiredDesc>
   <!-- EN: Cancel xenogerm -->
-  <CancelXenogerm>Anuluj ksenoziarno</CancelXenogerm>
+  <CancelXenogerm>Anuluj ksenozarodek</CancelXenogerm>
   <!-- EN: Stop all work on the current xenogerm. -->
-  <CancelXenogermDesc>Zatrzymaj wszelkie prace nad obecnym ksenoziarnem.</CancelXenogermDesc>
+  <CancelXenogermDesc>Zatrzymaj wszelkie prace nad obecnym ksenozarodkiem.</CancelXenogermDesc>
   <!-- EN: Allow all genepacks -->
   <AllowAllGenepacks>Zezwól na wszystkie pakiety genowe</AllowAllGenepacks> 
   <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
@@ -340,7 +340,7 @@
   <!-- EN: Recombine -->
   <Recombine>Rekombinuj</Recombine>
   <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
-  <RecombineDesc>Stwórz nowy wszczepialny ksenoziarno, korzystając z danych z pakietów genów w swojej bibliotece genów.</RecombineDesc>
+  <RecombineDesc>Stwórz nowy wszczepialny ksenozarodek, korzystając z danych z pakietów genów w swojej bibliotece genów.</RecombineDesc>
   <!-- EN: Genes -->
   <ContainedGenesDesc>Geny</ContainedGenesDesc>
   <!-- EN: Order implantation -->
@@ -348,9 +348,9 @@
   <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
   <ImplantXenogermDesc>Wszczep to osobie w celu częściowego nadpisania jej kodu genetycznego.\n\nTo operacja chirurgiczna, więc wymaga lekarza, łóżka medycznego oraz leku {MEDICINEAMOUNT}.</ImplantXenogermDesc>
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
-  <ImplantXenogermWarningDesc>Wszczepienie ksenoziarna spowoduje, że {PAWN_nameDef} zapadnie w śpiączkę, gdy ksenozairna zacznie się integrować z organizmem. Średnio trwa to {COMADURATION}. Długość śpiączki zależy od umiejętności medycznych lekarza i jakości placówki medycznej.</ImplantXenogermWarningDesc>
+  <ImplantXenogermWarningDesc>Wszczepienie ksenozarodka spowoduje, że {PAWN_nameDef} zapadnie w śpiączkę, gdy ksenozarodek zacznie się integrować z organizmem. Średnio trwa to {COMADURATION}. Długość śpiączki zależy od umiejętności medycznych lekarza i jakości placówki medycznej.</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
-  <ImplantXenogermWarningOverwriteXenogenes>Do tego wszczepienie ksenoziarna spowoduje zastąpienie istniejących ksenogenów. Obecny ksenotyp {PAWN_nameDef} to '{XENOTYPE}'. {PAWN_nameDef} ma następujące ksenogeny:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningOverwriteXenogenes>Do tego wszczepienie ksenozarodka spowoduje zastąpienie istniejących ksenogenów. Obecny ksenotyp {PAWN_nameDef} to '{XENOTYPE}'. {PAWN_pronoun} ma następujące ksenogeny:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
   <ImplantXenogermWarningNewMetabolism>Po implantacji {PAWN_nameDef} będzie posiadać wartość metabolizmu na poziomie {MET} z mnożnikiem spożycia żywności {CONSUMPTION}.</ImplantXenogermWarningNewMetabolism>
   <!-- EN: Would you like to continue? -->
@@ -358,7 +358,7 @@
   <!-- EN: Cancel implanting -->
   <CancelImplanting>Anuluj implantację</CancelImplanting>
   <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
-  <CancelImplantingDesc>Anuluj wszczepianie tego ksenoziarna dla {PAWN_nameDef}.</CancelImplantingDesc>
+  <CancelImplantingDesc>Anuluj wszczepianie tego ksenozarodka dla {PAWN_nameDef}.</CancelImplantingDesc>
   <!-- EN: Xenotype -->
   <Xenotype>Ksenotyp</Xenotype>
   <!-- EN: unique -->
@@ -378,13 +378,13 @@
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
   <InsertPersonGeneExtractorDesc>Włóż osobę do ekstraktora genów. Jej materiał genetyczny zostanie wydobyty i wykorzystany do stworzenia pakietu genowego, który zawiera losowy wybór jej genów.\n\nEkstrakcja genów jest bolesna i czyni podmiot słaby i senny przez kilka dni.</InsertPersonGeneExtractorDesc>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <ConfirmExtractXenogermWillKill>Ostrzeżenie: odrastają geny od {PAWN_nameDef}. Wydobycie {PAWN_possessive} genów przed ich regeneracją {PAWN_objective} zabije.\n\nCzy na pewno chcesz kontynuować?</ConfirmExtractXenogermWillKill>
+  <ConfirmExtractXenogermWillKill>Ostrzeżenie: odrastają geny od {PAWN_nameDef}. Wydobycie {PAWN_possessive} genów przed ich regeneracją zabije {PAWN_objective}.\n\nCzy na pewno chcesz kontynuować?</ConfirmExtractXenogermWillKill>
   <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
-  <GeneExtractionComplete>Ekstrakcja genów zakończona dla {PAWN_nameDef}. Wydobyty</GeneExtractionComplete>
+  <GeneExtractionComplete>Ekstrakcja genów zakończona dla {PAWN_nameDef}. Wydobytu</GeneExtractionComplete>
   <!-- EN: Insert xenogerm -->
-  <InsertXenogerm>Wstaw ksenoziarno</InsertXenogerm>
+  <InsertXenogerm>Wstaw ksenozarodek</InsertXenogerm>
   <!-- EN: Insert a xenogerm to apply during growth. -->
-  <InsertXenogermDesc>Wstaw ksenoziarno, aby się rozwinął.</InsertXenogermDesc>
+  <InsertXenogermDesc>Wstaw ksenozarodek, aby się rozwinął.</InsertXenogermDesc>
   <!-- EN: Waiting for {PAWN_nameDef}. -->
   <WaitingForPawn>Czekam na {PAWN_nameDef}.</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
@@ -394,7 +394,7 @@
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>Ostatnie spożycie {CHEMICAL_label} {DURATION} temu.</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
-  <NamedXenogerm>{NAME} ksenoziarno</NamedXenogerm>
+  <NamedXenogerm>{NAME} ksenozarodek</NamedXenogerm>
   <!-- EN: Inserted {0} -->
   <InsertedThing>Wstawiono {0}</InsertedThing>
   <!-- EN: Assembly paused -->
@@ -404,15 +404,15 @@
   <!-- EN: deathless -->
   <Deathless>nieśmiertelny</Deathless>
   <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
-  <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef}, aby przetrwać musi regularnie spożywać: {0}. Po {DEFICIENCYDURATION} bez {0}, będzie cierpieć na niedobór {0}. Po {COMADURATION} zapadnie w śpiączkę. Gdy minie {DEATHDURATION} {PAWN_nameDef} umrze.</GeneDefChemicalNeedDurationDesc>
+  <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef}, aby przetrwać musi regularnie spożywać: {0}. Po {DEFICIENCYDURATION} bez {0}, {PAWN_pronoun} będzie cierpieć na niedobór {0}. Po {COMADURATION} {PAWN_pronoun} zapadnie w śpiączkę. Gdy minie {DEATHDURATION} {PAWN_pronoun} umrze.</GeneDefChemicalNeedDurationDesc>
   <!-- EN: {CHEMICAL_label} dependency -->
   <ChemicalDependency>{CHEMICAL_label} cierpi na uzależnienie</ChemicalDependency>
   <!-- EN: Xenogerm -->
-  <Xenogerm>Ksenoziarno</Xenogerm>
+  <Xenogerm>Ksenozarodek</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} będzie w stanie anabiozy, tak długo jak ma śmiertelne obrażenia.</PawnWillKeepDeathrestingLethalInjuries>
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} będzie w stanie anabiozy, jak {PAWN_pronoun} ma śmiertelne obrażenia.</PawnWillKeepDeathrestingLethalInjuries>
   <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef} pozostanie w śpiączce regeneracyjnej tak długo, jak posiada śmiertelne obrażenia.</PawnWillKeepRegeneratingLethalInjuries>
+  <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef} pozostanie w śpiączce regeneracyjnej tak długo, jak {PAWN_pronoun} ma śmiertelne obrażenia.</PawnWillKeepRegeneratingLethalInjuries>
   <!-- EN: Deathrest stopped -->
   <DeathrestPaused>Anabioza zatrzymana</DeathrestPaused>
   <!-- EN: Lethal injuries -->
@@ -632,7 +632,7 @@
   <!-- EN: Xenogerm implantation -->
   <Reward_ReimplantXenogerm_Label>Implantacja ksenogenu</Reward_ReimplantXenogerm_Label>
   <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
-  <Reward_ReimplantXenogerm_Desc>Jeden z członków grupy przeszczepi swoje ksenoziarno wybranemu przez ciebie koloniście, zmieniając go w ten sposób w jednego z nich. Twój kolonista pozostanie częścią twojej frakcji i pozostanie pod twoją kontrolą.</Reward_ReimplantXenogerm_Desc>
+  <Reward_ReimplantXenogerm_Desc>Jeden z członków grupy przeszczepi swoje ksenozarodki wybranemu przez ciebie koloniście, zmieniając go w ten sposób w jednego z nich. Twój kolonista pozostanie częścią twojej frakcji i pozostanie pod twoją kontrolą.</Reward_ReimplantXenogerm_Desc>
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->

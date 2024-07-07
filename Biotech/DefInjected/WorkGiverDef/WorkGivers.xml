@@ -65,11 +65,11 @@
   <CleanClearPollution.verb>czyść zanieczyszczenie</CleanClearPollution.verb>
   
   <!-- EN: create xenogerm -->
-  <CreateXenogerm.label>stwórz ksenoziarno</CreateXenogerm.label>
+  <CreateXenogerm.label>stwórz ksenozarodek</CreateXenogerm.label>
   <!-- EN: creating xenogerm at -->
-  <CreateXenogerm.gerund>tworzenie ksenoziarna</CreateXenogerm.gerund>
+  <CreateXenogerm.gerund>tworzenie ksenozarodka</CreateXenogerm.gerund>
   <!-- EN: create xenogerm -->
-  <CreateXenogerm.verb>twórz ksenoziarno</CreateXenogerm.verb>
+  <CreateXenogerm.verb>twórz ksenozarodek</CreateXenogerm.verb>
   
   <!-- EN: deliver hemogen to prisoners -->
   <DeliverHemogenToPrisoner.label>dostarcz hemogen do więźniów</DeliverHemogenToPrisoner.label>
@@ -142,7 +142,7 @@
   <HaulToCarrier.verb>nieś do</HaulToCarrier.verb>
   
   <!-- EN: bank genepack -->
-  <HaulToGeneBank.label>przechowaj genepack</HaulToGeneBank.label>
+  <HaulToGeneBank.label>przechowaj pakiet genowy</HaulToGeneBank.label>
   <!-- EN: banking -->
   <HaulToGeneBank.gerund>przechowywanie</HaulToGeneBank.gerund>
   <!-- EN: bank -->

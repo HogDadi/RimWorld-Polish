@@ -11,7 +11,7 @@
   <!-- EN: centurion -->
   <Mech_Centurion.label>centurion</Mech_Centurion.label>
   <!-- EN: An ultraheavy mech with a built-in shield bubble generator. The centurion carries a point-defense bulb turret capable of firing while the mechanoid is moving. -->
-  <Mech_Centurion.description>Ultraciężki mech z wbudowanym generatorem tarczy. Centurion przenosi wieżyczkę do obrony punktowej, zdolną do strzelania podczas ruchu mechanoida.</Mech_Centurion.description>
+  <Mech_Centurion.description>Ultraciężki mech z wbudowanym generatorem tarczy.  Centurion przenosi wieżyczkę do obrony punktowej, zdolną do strzelania podczas ruchu mechanoida.</Mech_Centurion.description>
   <!-- EN: head -->
   <Mech_Centurion.tools.head.label>głowa</Mech_Centurion.tools.head.label>
   

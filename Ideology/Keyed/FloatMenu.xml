@@ -141,32 +141,32 @@
   <!-- EN: No available biosculpter pod. -->
   <NoBiosculpterPod>Brak dostępnego zasobnika biorzeźbiarza.</NoBiosculpterPod>
   <!-- EN: Nutrition not loaded -->
-  <BiosculpterNutritionNotLoaded>Wartość odżywcza nie załadowana</BiosculpterNutritionNotLoaded>
+  <BiosculpterNutritionNotLoaded>TODO</BiosculpterNutritionNotLoaded>
   <!-- EN: Occupied -->
   <BiosculpterOccupied>Zajęte</BiosculpterOccupied>
   <!-- EN: Cannot enter -->
   <CannotEnter>Nie można wejść</CannotEnter>
   <!-- EN: Cannot start {0} cycle -->
-  <BiosculpterCannotStartCycle>Nie można rozpocząć cyklu {0}</BiosculpterCannotStartCycle>
+  <BiosculpterCannotStartCycle>TODO</BiosculpterCannotStartCycle>
   <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
-  <BiosculpterMissingIngredients>Nie można znaleźć składników cyklu ({INGREDIENTS})</BiosculpterMissingIngredients>
+  <BiosculpterMissingIngredients>TODO</BiosculpterMissingIngredients>
   <!-- EN: Nobody around can use this -->
-  <BiosculpterNoEligiblePawns>Nikt w okolicy nie może z tego korzystać</BiosculpterNoEligiblePawns>
+  <BiosculpterNoEligiblePawns>TODO</BiosculpterNoEligiblePawns>
   <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
-  <BiosculpterNoEligiblePawnsBiotuned>Biodostrojono do {PAWN_labelShort}, a nie ma {PAWN_possessive} w pobliżu</BiosculpterNoEligiblePawnsBiotuned>
+  <BiosculpterNoEligiblePawnsBiotuned>TODO</BiosculpterNoEligiblePawnsBiotuned>
   <!-- EN: Auto load nutrition -->
-  <BiosculpterAutoLoadNutritionLabel>Automatyczne ładowanie wartości odżywczych</BiosculpterAutoLoadNutritionLabel>
+  <BiosculpterAutoLoadNutritionLabel>TODO</BiosculpterAutoLoadNutritionLabel>
   <!-- EN: Automatically load the nutrition required to run a cycle -->
-  <BiosculpterAutoLoadNutritionDescription>Automatyczne ładowanie składników odżywczych wymaganych do uruchomienia cyklu</BiosculpterAutoLoadNutritionDescription>
+  <BiosculpterAutoLoadNutritionDescription>TODO</BiosculpterAutoLoadNutritionDescription>
   <!-- EN: Auto age reversal for {PAWN_labelShort} -->
-  <BiosculpterAutoAgeReversalLabel>Automatyczne odmładzanie dla {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
+  <BiosculpterAutoAgeReversalLabel>TODO</BiosculpterAutoAgeReversalLabel>
   <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
-  <BiosculpterAutoAgeReversalDescription>Automatycznie zaspokajaj pragnienie {PAWN_labelShort} przeprowadzania corocznej kuracji odmładzania w tej kapsule, zgodnie z {PAWN_possessive} przekonaniami. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+  <BiosculpterAutoAgeReversalDescription>TODO</BiosculpterAutoAgeReversalDescription>
   <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
-  <BiosculpterAutoAgeReversalDescriptionFuture>Jeśli ta opcja jest włączona, {PAWN_labelShort} automatycznie podejmie następny zabieg w {TIME}, jeśli kapsuła jest gotowa.</BiosculpterAutoAgeReversalDescriptionFuture>
+  <BiosculpterAutoAgeReversalDescriptionFuture>TODO</BiosculpterAutoAgeReversalDescriptionFuture>
   <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
-  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} chce już kolejnego leczenia i automatycznie je rozpocznie, jeśli ta opcja będzie włączona.</BiosculpterAutoAgeReversalDescriptionNow>
+  <BiosculpterAutoAgeReversalDescriptionNow>TODO</BiosculpterAutoAgeReversalDescriptionNow>
   <!-- EN: Collecting ingredients for biosculpter cycle -->
-  <BiosculpterJobReportCollectIngredients>Zbieranie składników do cyklu biorzeźbiarza</BiosculpterJobReportCollectIngredients>
+  <BiosculpterJobReportCollectIngredients>TODO</BiosculpterJobReportCollectIngredients>
 
 </LanguageData>

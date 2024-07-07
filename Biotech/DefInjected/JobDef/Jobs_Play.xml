@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: playing with TargetA. -->
-  <PlayStatic.reportString>gra z TargetA</PlayStatic.reportString>
+  <PlayStatic.reportString>bawi się z: TargetA</PlayStatic.reportString>
   
   <!-- EN: playing with TargetA. -->
-  <PlayToys.reportString>gra z TargetA</PlayToys.reportString>
+  <PlayToys.reportString>bawi się z: TargetA</PlayToys.reportString>
   
   <!-- EN: playing with TargetA. -->
-  <PlayWalking.reportString>gra z TargetA</PlayWalking.reportString>
+  <PlayWalking.reportString>bawi się z: TargetA</PlayWalking.reportString>
   
 </LanguageData>
