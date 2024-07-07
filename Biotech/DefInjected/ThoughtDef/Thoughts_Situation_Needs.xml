@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: learning-starved -->
-  <NeedLearning.stages.learningstarved.label>głoduję bez nauki</NeedLearning.stages.learningstarved.label>
+  <NeedLearning.stages.learningstarved.label>głód nauki</NeedLearning.stages.learningstarved.label>
   <!-- EN: It's been so long since I learned anything new. I'm tired of the monotony! -->
   <NeedLearning.stages.learningstarved.description>Tak dawno nie nauczono mnie niczego nowego. Mam dość tej monotonii!</NeedLearning.stages.learningstarved.description>
   <!-- EN: learning-deprived -->

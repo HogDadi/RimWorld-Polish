@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   
   <!-- EN: babies -->
@@ -24,16 +24,16 @@
   <!-- EN: Mechanitors -->
   <Mechanitors.label>Mechanitorzy</Mechanitors.label>
   <!-- EN: Mechanitors use a mechlink implant to control mechanoids.\n\nMechanoids are assigned to control groups. You can change the behavior mode for a control group by selecting the mechanoid or mechanitor, then clicking the behavior mode icon on the control group. Gear and implants can increase the number of control groups.\n\nMechanitors only have the bandwidth to control a certain number of mechanoids. Special mechanitor gear and band node buildings can increase a mechanitor's total bandwidth.\n\nThe MECHS tab provides an overview of your colony's mechanoids. Here, you can draft mechanoids, change their control group, set allowed areas, and more.\n\nMechanitors can also summon powerful enemy super-mechanoids. These super-mechanoids drop unique chips which can be used to advance your mechanoid technology and build special units. -->
-  <Mechanitors.helpText>TODO</Mechanitors.helpText>
+  <Mechanitors.helpText>Mechanitorzy używają implantu mechlink do kontroli mechanoidów.\n\nMechanoidy są przypisane do grup kontrolnych. Możesz zmienić tryb zachowania dla grupy kontrolnej, wybierając mechanoida lub mechanitora, a następnie klikając ikonę trybu zachowania w grupie kontrolnej. Sprzęt i implanty mogą zwiększyć liczbę grup kontrolnych.\n\ nMechanitorzy mają tylko przepustowość do kontrolowania określonej liczby mechanoidów. Specjalne budynki sprzętu mechanitowego i węzłów pasma mogą zwiększyć całkowitą przepustowość mechantora.\n\ nZakładka MECHY zawiera przegląd mechanoidów Twojej kolonii. Tutaj możesz przypisywać mechanoidy, zmieniać ich grupę kontrolną, ustawiać dozwolone obszary i nie tylko.\n\nMechanitorzy mogą również przywoływać potężne super-mechanoidy wroga. Te super-mechanoidy upuszczają unikalne chipy, które mogą być używane do rozwijania technologii mechanoidów i budowania specjalnych jednostek.</Mechanitors.helpText>
   
   <!-- EN: Mechs in caravans -->
   <MechsInCaravans.label>mechanoidy w karawanach</MechsInCaravans.label>
   <!-- EN: While caravanning, mechanoids enter a semi-dormant long-travel state to preserve power. This allows them to travel long distances without losing energy. After arriving at their destination, mechanoids will automatically return to their previous work mode. -->
-  <MechsInCaravans.helpText>TODO</MechsInCaravans.helpText>
+  <MechsInCaravans.helpText>Podczas wyprawy mechanoidy wchodzą w półuśpiony stan długiej podróży, aby zachować moc. Pozwala im to podróżować na duże odległości bez utraty energii. Po dotarciu do miejsca docelowego mechanoidy automatycznie powrócą do poprzedniego trybu pracy.</MechsInCaravans.helpText>
   
   <!-- EN: polluted terrain -->
   <PollutedTerrain.label>skażony obszar</PollutedTerrain.label>
   <!-- EN: Keep your colonists away from polluted terrain. Whenever they are on polluted terrain, they will continuously gain toxic buildup. This eventually becomes lethal.\n\nClean polluted terrain by placing a POLLUTION REMOVAL AREA. Colonists will convert the pollution into toxic wastepacks, which must be kept frozen.\n\nCertain apparel, implants and gene modifications can protect from toxic buildup.\n\nNormal crops cannot survive on polluted terrain. -->
-  <PollutedTerrain.helpText>TODO</PollutedTerrain.helpText>
+  <PollutedTerrain.helpText>Trzymaj kolonistów z dala od zanieczyszczonego terenu. Ilekroć znajdą się na zanieczyszczonym terenie, będą stale gromadzić w sobie toksyczne substancje. W końcu stanie się to śmiertelne.\n\ nWyczyść zanieczyszczony teren, umieszczając OBSZAR USUWANIA ZANIECZYSZCZEŃ. Koloniści przekształcą zanieczyszczenia w toksyczne odpady, które należy zamrozić.\n\ Pewna odzież, implanty i modyfikacje genów mogą chronić przed toksynami.\n\nNormalne uprawy nie mogą przetrwać na zanieczyszczonym terenie.</PollutedTerrain.helpText>
   
 </LanguageData>

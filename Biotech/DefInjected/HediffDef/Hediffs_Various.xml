@@ -1,34 +1,34 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   
   <!-- EN: bio-starvation -->
-  <BioStarvation.label>TODO</BioStarvation.label>
+  <BioStarvation.label>bio-głodzenie</BioStarvation.label>
   <!-- EN: This person was in a growth vat which wasn't functioning properly due to lack of power or nutrition feedstock. This has left their body in a state of bio-starvation. -->
-  <BioStarvation.description>TODO</BioStarvation.description>
+  <BioStarvation.description>Osoba ta znajdowała się w kadzi wzrostowej, która nie działała prawidłowo z powodu braku zasilania lub surowca odżywczego. To spowodowało, że organizm jest w stanie bio-głodzenia.</BioStarvation.description>
   
   <!-- EN: deathresting -->
-  <Deathrest.label>TODO</Deathrest.label>
+  <Deathrest.label>nibyśmierć</Deathrest.label>
   <!-- EN: A deep coma-like sleep that lasts several days and restores the body's resources. Certain genes create a need for deathrest. Deathrest can also be enhanced with various support buildings that give special bonuses to the deathrester. -->
-  <Deathrest.description>TODO</Deathrest.description>
+  <Deathrest.description>Głęboki sen przypominający śpiączkę, który trwa kilka dni i przywraca organizmowi zasoby. Niektóre geny stwarzają potrzebę nibyśmierci. Nibyśmierć można również wzbogacić o różne budynki pomocnicze, które zapewniają specjalne premie dla nibyśmierci.</Deathrest.description>
   
   <!-- EN: deathrest exhaustion -->
-  <DeathrestExhaustion.label>TODO</DeathrestExhaustion.label>
+  <DeathrestExhaustion.label>śmiertelne wyczerpanie</DeathrestExhaustion.label>
   <!-- EN: This person desperately needs to deathrest to rebalance their metabolism. -->
-  <DeathrestExhaustion.description>TODO</DeathrestExhaustion.description>
+  <DeathrestExhaustion.description>Ta osoba desperacko musi zaznać nibyśmierci, aby zrównoważyć swój metabolizm.</DeathrestExhaustion.description>
   
   <!-- EN: chemical dependency -->
-  <GeneticDrugNeed.label>TODO</GeneticDrugNeed.label>
+  <GeneticDrugNeed.label>zależność chemiczna</GeneticDrugNeed.label>
   <!-- EN: This person has a genetically-induced biochemical dependency on a specific drug. Without regular doses of the drug, their body cannot maintain itself in a healthy state and they will suffer degrading health and mood until they die.\n\nTakes effect after age: 13. -->
-  <GeneticDrugNeed.description>TODO</GeneticDrugNeed.description>
+  <GeneticDrugNeed.description>Osoba ta ma genetycznie indukowaną zależność biochemiczną od konkretnego leku. Bez regularnych dawek organizm nie jest w stanie utrzymać się w zdrowiu i będzie cierpieć z powodu pogarszającego się stanu zdrowia i nastroju aż do śmierci.\n\nZacznie działać po ukończeniu 13 lat.</GeneticDrugNeed.description>
   <!-- EN: deficiency -->
-  <GeneticDrugNeed.stages.deficiency.label>TODO</GeneticDrugNeed.stages.deficiency.label>
+  <GeneticDrugNeed.stages.deficiency.label>usterka</GeneticDrugNeed.stages.deficiency.label>
   <!-- EN: deficiency coma -->
-  <GeneticDrugNeed.stages.2.overrideLabel>TODO</GeneticDrugNeed.stages.2.overrideLabel>
+  <GeneticDrugNeed.stages.2.overrideLabel>deficyt śpiączki</GeneticDrugNeed.stages.2.overrideLabel>
   
   <!-- EN: hemogen craving -->
-  <HemogenCraving.label>TODO</HemogenCraving.label>
+  <HemogenCraving.label>głód hemogeniczny</HemogenCraving.label>
   <!-- EN: Due to a lack of hemogen, this person's body is breaking down hemogen reserves in their bone marrow. This causes disorientation and a painful craving for human blood. -->
-  <HemogenCraving.description>TODO</HemogenCraving.description>
+  <HemogenCraving.description>Z powodu braku hemogenu organizm tej osoby rozkłada rezerwy hemogenu w jej szpiku kostnym. Powoduje to dezorientację i bolesne pragnienie ludzkiej krwi.</HemogenCraving.description>
   <!-- EN: minor -->
   <HemogenCraving.stages.minor.label>niskie</HemogenCraving.stages.minor.label>
   <!-- EN: moderate -->
@@ -37,63 +37,63 @@
   <HemogenCraving.stages.major.label>poważne</HemogenCraving.stages.major.label>
   
   <!-- EN: interrupted deathrest -->
-  <InterruptedDeathrest.label>TODO</InterruptedDeathrest.label>
+  <InterruptedDeathrest.label>przerwana nibyśmierć</InterruptedDeathrest.label>
   <!-- EN: Deathrest was interrupted while this person's metabolism was still out of balance. They will be sick for days while regaining equilibrium. -->
-  <InterruptedDeathrest.description>TODO</InterruptedDeathrest.description>
+  <InterruptedDeathrest.description>Nibyśmierć została przerwana, gdy metabolizm tej osoby był nadal niezrównoważony. Będzie chorzy przez wiele dni, jednocześnie odzyskując równowagę.</InterruptedDeathrest.description>
   
   <!-- EN: psychic bond -->
-  <PsychicBond.label>TODO</PsychicBond.label>
+  <PsychicBond.label>więź psychiczna</PsychicBond.label>
   <!-- EN: This person has a psychic bond with another person based on the psychic bonding gene. -->
-  <PsychicBond.description>TODO</PsychicBond.description>
+  <PsychicBond.description>Ta osoba ma psychiczną więź z inną osobą opartą na genie więzi psychicznej.</PsychicBond.description>
   <!-- EN: This person's bonded individual is nearby. -->
-  <PsychicBond.stages.0.extraTooltip>TODO</PsychicBond.stages.0.extraTooltip>
+  <PsychicBond.stages.0.extraTooltip>W pobliżu znajduje się osoba związana z tą osobą.</PsychicBond.stages.0.extraTooltip>
   <!-- EN: psychic bond -->
-  <PsychicBond.stages.0.overrideLabel>TODO</PsychicBond.stages.0.overrideLabel>
+  <PsychicBond.stages.0.overrideLabel>więź psychiczna</PsychicBond.stages.0.overrideLabel>
   <!-- EN: This person's bonded individual is far away. -->
-  <PsychicBond.stages.1.extraTooltip>TODO</PsychicBond.stages.1.extraTooltip>
+  <PsychicBond.stages.1.extraTooltip>Osoba związana z tą osobą jest daleko.</PsychicBond.stages.1.extraTooltip>
   <!-- EN: psychic bond distance -->
-  <PsychicBond.stages.1.overrideLabel>TODO</PsychicBond.stages.1.overrideLabel>
+  <PsychicBond.stages.1.overrideLabel>dystans więzi psychicznej</PsychicBond.stages.1.overrideLabel>
   
   <!-- EN: psychic bond torn -->
-  <PsychicBondTorn.label>TODO</PsychicBondTorn.label>
+  <PsychicBondTorn.label>zerwanie więzi psychicznej</PsychicBondTorn.label>
   <!-- EN: This person had a psychic bond with another, but the bond was torn when their partner died. -->
-  <PsychicBondTorn.description>TODO</PsychicBondTorn.description>
+  <PsychicBondTorn.description>Ta osoba miała psychiczną więź z inną, ale więź została przerwana, gdy zmarł jej partner.</PsychicBondTorn.description>
   
   <!-- EN: regeneration coma -->
-  <RegenerationComa.label>TODO</RegenerationComa.label>
+  <RegenerationComa.label>śpiączka regeneracyjna</RegenerationComa.label>
   <!-- EN: Had this person not been genetically deathless, they would have already died from their health conditions. Instead, they have fallen into a regeneration coma, during which they will regenerate their body. -->
-  <RegenerationComa.description>TODO</RegenerationComa.description>
+  <RegenerationComa.description>Gdyby ta osoba nie była genetycznie nieśmiertelna, umarłaby już na swoje schorzenia. Zamiast tego zapadła w śpiączkę regeneracyjną, podczas której zregeneruje swój organizm.</RegenerationComa.description>
   
   <!-- EN: Scanning sickness -->
-  <ScanningSickness.label>TODO</ScanningSickness.label>
+  <ScanningSickness.label>Choroba po skanowaniu</ScanningSickness.label>
   <!-- EN: This person was scanned by a softscanner to produce a mechanoid subcore. The high-energy scanning device has caused disturbances in their brain chemistry which will take time to resolve themselves. There won't be any long-term damage. -->
-  <ScanningSickness.description>TODO</ScanningSickness.description>
+  <ScanningSickness.description>Osoba została zeskanowana przez softskanera w celu wytworzenia podrdzenia mechanoidalnego. Urządzenie do skanowania wysokoenergetycznego spowodowało zaburzenia w chemii mózgu, których rozwiązanie zajmie trochę czasu. Nie będzie żadnych długotrwałych szkód.</ScanningSickness.description>
   
   <!-- EN: vat growing -->
-  <VatGrowing.label>TODO</VatGrowing.label>
+  <VatGrowing.label>wzrost w komorze</VatGrowing.label>
   <!-- EN: The growth vat is stimulating this person's body to increase the rate of cell division and aging. -->
-  <VatGrowing.description>TODO</VatGrowing.description>
+  <VatGrowing.description>Komora wzrostu stymuluje organizm tej osoby do zwiększenia tempa podziału i starzenia się komórek.</VatGrowing.description>
   
   <!-- EN: vat learning -->
-  <VatLearning.label>TODO</VatLearning.label>
+  <VatLearning.label>nauka w komorze</VatLearning.label>
   <!-- EN: The growth vat is electrically stimulating this person's brain to induce skill development. This process is not very effective, and will only partially replace the skills missed from not growing in the outside world. -->
-  <VatLearning.description>TODO</VatLearning.description>
+  <VatLearning.description>Komora wzrostu elektrycznie stymuluje mózg tej osoby, aby wywołać rozwój umiejętności. Proces ten nie jest zbyt skuteczny i tylko częściowo zastąpi umiejętności utracone w wyniku braku rozwoju w świecie zewnętrznym.</VatLearning.description>
   
   <!-- EN: xenogermination coma -->
-  <XenogerminationComa.label>TODO</XenogerminationComa.label>
+  <XenogerminationComa.label>śpiączka ksenogeniczna</XenogerminationComa.label>
   <!-- EN: A xenogerm was implanted in this person. The xenogerm needs time to integrate itself into the host and modify the genes and chemistry of various tissues throughout the body. During this time, the person cannot safely wake up, so the xenogerm keeps them in a coma.\n\nThe duration of this coma can be reduced by implanting a xenogerm with better medical facilities and more skilled doctors. -->
-  <XenogerminationComa.description>TODO</XenogerminationComa.description>
+  <XenogerminationComa.description>U tej osoby wszczepiono ksenogen. Ksenogen potrzebuje czasu, aby zintegrować się z gospodarzem, zmodyfikować geny i chemię różnych tkanek w całym organizmie. W tym czasie osoba nie może się bezpiecznie obudzić, więc ksenogen utrzymuje ją w śpiączce.\n\ nDługość tej śpiączki można skrócić, wszczepiając ksenogen z lepszym zapleczem medycznym i bardziej wykwalifikowanymi lekarzami.</XenogerminationComa.description>
   
   <!-- EN: gene loss shock -->
-  <XenogermLossShock.label>TODO</XenogermLossShock.label>
+  <XenogermLossShock.label>szok związany z utratą genu</XenogermLossShock.label>
   <!-- EN: This person's genes were recently removed or expelled. This has destabilized the person's metabolism and hormones, leaving them temporarily weak and drowsy, with a weakened immune system. -->
-  <XenogermLossShock.description>TODO</XenogermLossShock.description>
+  <XenogermLossShock.description>Geny tej osoby zostały niedawno usunięte. Spowodowało to destabilizację metabolizmu i hormonów danej osoby, pozostawiając ją tymczasowo słabą, senną i z osłabionym układem odpornościowym.</XenogermLossShock.description>
   
   <!-- EN: genes regrowing -->
-  <XenogermReplicating.label>TODO</XenogermReplicating.label>
+  <XenogermReplicating.label>odrastanie genów</XenogermReplicating.label>
   <!-- EN: This person's genetic material is regrowing. This process doesn't have any direct health effects. However, extracting their genes while they are regrowing will kill them. -->
-  <XenogermReplicating.description>TODO</XenogermReplicating.description>
+  <XenogermReplicating.description>Materiał genetyczny tej osoby odradza się. Proces ten nie ma żadnych bezpośrednich skutków zdrowotnych. Jednak wyjęcie genów podczas odrastania ją zabije.</XenogermReplicating.description>
   <!-- EN: {PAWN_nameDef}'s genes have finished regrowing. -->
-  <XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>TODO</XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>
+  <XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>Geny {PAWN_nameDef} zakończyły odrastanie.</XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>
   
 </LanguageData>
